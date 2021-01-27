@@ -47,3 +47,12 @@ section.contactPanel {
     width: 80px;
   }
 }
+
+
+.rcorners {
+  border-radius: 25px;
+  border: 2px solid;
+  padding: 5px; 
+  width: auto;
+  height: auto;  
+}
