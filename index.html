@@ -1,1527 +1,2545 @@
 <!DOCTYPE html>
 <html>
-	<head>
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-		<!-- Basic -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio | Mahesh Shelke</title>
 
-		<title>Portfolio | Mahesh Shelke</title>
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="this is my portfolio" />
+    <meta name="author" content="mahesh" />
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="this is my portfolio">
-		<meta name="author" content="mahesh">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
 
-		<!-- Favicon -->
-		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
+    />
 
-		<!-- Mobile Metas -->
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <!-- Web Fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light"
+      rel="stylesheet"
+      type="text/css"
+    />
 
-		<!-- Web Fonts  -->
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/font-awesome/css/fontawesome-all.min.css"
+    />
+    <link rel="stylesheet" href="vendor/animate/animate.min.css" />
+    <link
+      rel="stylesheet"
+      href="vendor/simple-line-icons/css/simple-line-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/owl.carousel/assets/owl.theme.default.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/magnific-popup/magnific-popup.min.css"
+    />
 
-		<!-- Vendor CSS -->
-		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-		<link rel="stylesheet" href="vendor/font-awesome/css/fontawesome-all.min.css">
-		<link rel="stylesheet" href="vendor/animate/animate.min.css">
-		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/theme-elements.css" />
+    <link rel="stylesheet" href="css/theme-blog.css" />
+    <link rel="stylesheet" href="css/theme-shop.css" />
 
-		<!-- Theme CSS -->
-		<link rel="stylesheet" href="css/theme.css">
-		<link rel="stylesheet" href="css/theme-elements.css">
-		<link rel="stylesheet" href="css/theme-blog.css">
-		<link rel="stylesheet" href="css/theme-shop.css">
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="vendor/rs-plugin/css/settings.css" />
+    <link rel="stylesheet" href="vendor/rs-plugin/css/layers.css" />
+    <link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css" />
 
-		<!-- Current Page CSS -->
-		<link rel="stylesheet" href="vendor/rs-plugin/css/settings.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/layers.css">
-		<link rel="stylesheet" href="vendor/rs-plugin/css/navigation.css">
-		
-		<!-- Demo CSS -->
-		<link rel="stylesheet" href="css/demos/demo-resume.css">
+    <!-- Demo CSS -->
+    <link rel="stylesheet" href="css/demos/demo-resume.css" />
 
-		<!-- Skin CSS -->
-		<link rel="stylesheet" href="css/skins/skin-resume.css"> 
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="css/skins/skin-resume.css" />
 
-		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="css/custom.css">
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
 
-		<!-- Head Libs -->
-		<script src="vendor/modernizr/modernizr.min.js"></script>
+    <!-- Head Libs -->
+    <script src="vendor/modernizr/modernizr.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".wrapper-spy">
+    <div class="body">
+      <header
+        id="header"
+        class="header-floating"
+        data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}"
+      >
+        <div class="header-body">
+          <div class="header-container container">
+            <div class="header-row">
+              <div class="header-column">
+                <div class="header-row">
+                  <div class="header-nav pt-1">
+                    <div class="header-nav-main">
+                      <nav class="wrapper-spy collapse">
+                        <ul class="nav" id="mainNav">
+                          <li>
+                            <a
+                              data-hash
+                              href="#about-me"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-home icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >About Me</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#experience"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-eye icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Experience</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#projects"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-screen-desktop icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Projects</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#education"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-briefcase icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Education</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#skills"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-graduation icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Skills</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#portfolio"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-diamond icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Portfolio</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#recommendations"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-pencil icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Recommendations</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#myStories"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-bubbles icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Stories</span
+                              >
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              data-hash
+                              href="#say-hello"
+                              class="nav-link text-color-light background-color-primary"
+                            >
+                              <i class="icon-envelope-open icons"></i>
+                              <span class="custom-tooltip text-color-dark"
+                                >Say Hello</span
+                              >
+                            </a>
+                          </li>
+                        </ul>
+                      </nav>
+                    </div>
+                    <button
+                      class="btn header-btn-collapse-nav"
+                      data-toggle="collapse"
+                      data-target=".header-nav-main nav"
+                    >
+                      <i class="fas fa-bars"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-	</head>
-	<body data-spy="scroll" data-target=".wrapper-spy">
+      <div role="main" class="main">
+        <section
+          id="about-me"
+          class="section section-no-border section-parallax customsection-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0"
+          data-plugin-parallax
+          data-plugin-options="{'speed': 1.5}"
+          data-image-src="img/demos/resume/about-me/bg-home.jpg"
+        >
+          <div class="container">
+            <div class="row">
+              <div
+                class="col-lg-4 col-md-4 col-sm-6 custom-col-xs-8 custom-sm-margin-bottom-1"
+              >
+                <img
+                  src="img/demos/resume/about-me/mahesh_img.jpeg"
+                  class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4"
+                  alt
+                />
+              </div>
+              <div class="col-lg-6 col-xl-5">
+                <h1 class="text-color-light custom-font-size-1">
+                  Mahesh Shelke
+                </h1>
+                <p
+                  class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1"
+                >
+                  Lead - full stack Engineering & QA @ GreyAtom
+                </p>
+                <span class="custom-about-me-infos">
+                  <span class="custom-text-color-1 text-uppercase"
+                    >Andheri, Mumbai</span
+                  >
+                  <!-- <span class="custom-text-color-1 text-uppercase mb-3">Information Technology &amp; Services</span> -->
+                  <span class="custom-text-color-1 text-uppercase">
+                    <strong class="text-color-light">Previous: </strong>
+                    Software Engineer @ ININ
+                    <a
+                      data-hash
+                      href="#experience"
+                      class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2"
+                      >View More</a
+                    >
+                  </span>
+                  <span class="custom-text-color-1 text-uppercase">
+                    <strong class="text-color-light">Education: </strong>
+                    Mumbai University
+                    <a
+                      data-hash
+                      href="#education"
+                      class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2"
+                      >View More</a
+                    >
+                  </span>
+                </span>
+              </div>
+              <div class="col-lg-2 col-xl-3 d-none d-lg-block">
+                <img
+                  src="img/demos/resume/about-me/apple_mouse.png"
+                  custom-anim
+                  class="img-fluid custom-image-pos-1"
+                  alt
+                />
+              </div>
+            </div>
+          </div>
+          <ul class="social-icons custom-social-icons">
+            <li class="social-icons-facebook">
+              <a
+                href="http://www.facebook.com/"
+                target="_blank"
+                title="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="social-icons-twitter">
+              <a href="http://www.twitter.com/" target="_blank" title="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="social-icons-youtube">
+              <a href="http://www.youtube.com/" target="_blank" title="Youtube">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
 
-		<div class="body">
-			<header id="header" class="header-floating" data-plugin-options="{'stickyEnabled': false, 'stickyEnableOnBoxed': false, 'stickyEnableOnMobile': false, 'stickyStartAt': 0, 'stickySetTop': '60px', 'stickyChangeLogo': false}">
-				<div class="header-body">
-					<div class="header-container container">
-						<div class="header-row">
-							<div class="header-column">
-								<div class="header-row">
-									<div class="header-nav pt-1">
-										<div class="header-nav-main">
-											<nav class="wrapper-spy collapse">
-												<ul class="nav" id="mainNav">
-													<li>
-														<a data-hash href="#about-me" class="nav-link text-color-light background-color-primary">
-															<i class="icon-home icons"></i>
-															<span class="custom-tooltip text-color-dark">About Me</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#experience" class="nav-link text-color-light background-color-primary">
-															<i class="icon-eye icons"></i>
-															<span class="custom-tooltip text-color-dark">Experience</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#projects" class="nav-link text-color-light background-color-primary">
-															<i class="icon-screen-desktop icons"></i>
-															<span class="custom-tooltip text-color-dark">Projects</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#education" class="nav-link text-color-light background-color-primary">
-															<i class="icon-briefcase icons"></i>
-															<span class="custom-tooltip text-color-dark">Education</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#skills" class="nav-link text-color-light background-color-primary">
-															<i class="icon-graduation icons"></i>
-															<span class="custom-tooltip text-color-dark">Skills</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#portfolio" class="nav-link text-color-light background-color-primary">
-															<i class="icon-diamond icons"></i>
-															<span class="custom-tooltip text-color-dark">Portfolio</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#recommendations" class="nav-link text-color-light background-color-primary">
-															<i class="icon-pencil icons"></i>
-															<span class="custom-tooltip text-color-dark">Recommendations</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#myStories" class="nav-link text-color-light background-color-primary">
-															<i class="icon-bubbles icons"></i>
-															<span class="custom-tooltip text-color-dark">Stories</span>
-														</a>
-													</li>
-													<li>
-														<a data-hash href="#say-hello" class="nav-link text-color-light background-color-primary">
-															<i class="icon-envelope-open icons"></i>
-															<span class="custom-tooltip text-color-dark">Say Hello</span>
-														</a>
-													</li>
-												</ul>
-											</nav>
-										</div>
-										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
-											<i class="fas fa-bars"></i>
-										</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</header>
+        <div class="custom-about-me-links background-color-light">
+          <div class="container">
+            <div class="row justify-content-end">
+              <div class="col-lg-3 text-center custom-xs-border-bottom p-0">
+                <a data-hash href="#say-hello" class="text-decoration-none">
+                  <span class="custom-nav-button text-color-dark">
+                    <i class="icon-earphones-alt icons text-color-primary"></i>
+                    Contact Information
+                  </span>
+                </a>
+              </div>
+              <div class="col-lg-2 text-center custom-xs-border-bottom p-0">
+                <a data-hash href="#say-hello" class="text-decoration-none">
+                  <span
+                    class="custom-nav-button custom-divisors text-color-dark"
+                  >
+                    <i class="icon-envelope-open icons text-color-primary"></i>
+                    Send Message
+                  </span>
+                </a>
+              </div>
+              <div class="col-lg-3 text-center p-0">
+                <a
+                  href="pdf/mahesh_shelke_resume.pdf"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <span class="custom-nav-button text-color-dark">
+                    <i class="icon-cloud-download icons text-color-primary"></i>
+                    Download Resume
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-			<div role="main" class="main">
-			<section
-				id="about-me"
-				class="section section-no-border section-parallax customsection-parallax custom-section-padding-1 custom-position-1 custom-xs-bg-size-cover parallax-no-overflow m-0"
-				data-plugin-parallax
-				data-plugin-options="{'speed': 1.5}"
-				data-image-src="img/demos/resume/about-me/bg-home.jpg"
-			  >
-				<div class="container">
-					<div class="row">
-						<div
-							class="col-lg-4 col-md-4 col-sm-6 custom-col-xs-8 custom-sm-margin-bottom-1"
-						>
-							<img
-							src="img/demos/resume/about-me/mahesh_img.jpeg"
-							class="img-fluid custom-border custom-image-position-2 custom-box-shadow-4"
-							alt
-							/>
-						</div>
-						<div class="col-lg-6 col-xl-5">
-							<h1 class="text-color-light custom-font-size-1">Mahesh Shelke</h1>
-							<p class="text-color-light font-weight-normal custom-font-size-2 custom-margin-bottom-1">Lead - full stack Engineering & QA @ GreyAtom</p>
-							<span class="custom-about-me-infos">
-								<span class="custom-text-color-1 text-uppercase">Andheri, Mumbai</span>
-								<span class="custom-text-color-1 text-uppercase mb-3">Information Technology &amp; Services</span>
-								<span class="custom-text-color-1 text-uppercase">
-									<strong class="text-color-light">Previous: </strong>
-									QA Lead at ININ
-									<a data-hash href="#experience" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
-								</span>
-								<span class="custom-text-color-1 text-uppercase">
-									<strong class="text-color-light">Education: </strong>
-									Mumbai University
-									<a data-hash href="#education" class="btn btn-tertiary text-uppercase custom-btn-style-1 text-1 ml-2">View More</a>
-								</span>
-							</span>
-						</div>
-						<div class="col-lg-2 col-xl-3 d-none d-lg-block">
-							<img src="img/demos/resume/about-me/apple_mouse.png" custom-anim class="img-fluid custom-image-pos-1" alt />
-						</div>
-					</div>
-				</div>
-				<ul class="social-icons custom-social-icons">
-					<li class="social-icons-facebook">
-						<a href="http://www.facebook.com/" target="_blank" title="Facebook">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-					<li class="social-icons-twitter">
-						<a href="http://www.twitter.com/" target="_blank" title="Twitter">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</li>
-					<li class="social-icons-youtube">
-						<a href="http://www.youtube.com/" target="_blank" title="Youtube">
-							<i class="fab fa-youtube"></i>
-						</a>
-					</li>
-				</ul>
-			</section>
+        <section class="section section-no-border background-color-light m-0">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div
+                  class="custom-box-details background-color-light custom-box-shadow-1 col-lg-8 ml-5 mb-5 mb-lg-4 float-right clearfix"
+                >
+                  <h4>Personal Details</h4>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <ul class="custom-list-style-1 p-0 mb-0">
+                        <li>
+                          <span class="text-color-dark">Birthday:</span>
+                          <span class="custom-text-color-2">7 April 1986</span>
+                        </li>
+                        <li>
+                          <span class="text-color-dark">Marital:</span>
+                          <span class="custom-text-color-2">Married</span>
+                        </li>
+                        <li>
+                          <span class="text-color-dark">Nationality:</span>
+                          <span class="custom-text-color-2">Indian</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-md-6">
+                      <ul class="custom-list-style-1 p-0 mb-0">
+                        <li>
+                          <span class="text-color-dark">Skype:</span>
+                          <span class="custom-text-color-2"
+                            ><a
+                              class="custom-text-color-2"
+                              href="skype:mahesh_shelke?chat"
+                              >mahesh_shelke</a
+                            ></span
+                          >
+                        </li>
+                        <li>
+                          <span class="text-color-dark">PHONE:</span>
+                          <span class="custom-text-color-2"
+                            ><a
+                              class="custom-text-color-2"
+                              href="tel:8237617767"
+                              >+91 8237 617 767</a
+                            ></span
+                          >
+                        </li>
+                        <li>
+                          <span class="text-color-dark">EMAIL:</span>
+                          <span class="custom-text-color-2"
+                            ><a
+                              class="custom-text-color-2"
+                              href="mailto:maheshbalushelke@gmail.com"
+                              >maheshbalushelke@gmail.com</a
+                            ></span
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
 
-			<div class="custom-about-me-links background-color-light">
-				<div class="container">
-					<div class="row justify-content-end">
-						<div class="col-lg-3 text-center custom-xs-border-bottom p-0">
-							<a data-hash href="#say-hello" class="text-decoration-none">
-								<span class="custom-nav-button text-color-dark">
-									<i class="icon-earphones-alt icons text-color-primary"></i>
-									Contact Information	
-								</span>
-							</a>
-						</div>
-						<div class="col-lg-2 text-center custom-xs-border-bottom p-0">
-							<a data-hash href="#say-hello" class="text-decoration-none">
-								<span class="custom-nav-button custom-divisors text-color-dark">
-									<i class="icon-envelope-open icons text-color-primary"></i>
-									Send Message	
-								</span>
-							</a>
-						</div>
-						<div class="col-lg-3 text-center p-0">
-							<a href="pdf/mahesh_shelke_resume.pdf" target="_blank" class="text-decoration-none">
-								<span class="custom-nav-button text-color-dark">
-									<i class="icon-cloud-download icons text-color-primary"></i>
-									Download Resume	
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
+                <h2
+                  class="text-color-quaternary font-weight-extra-bold text-uppercase"
+                >
+                  About Me
+                </h2>
 
-			<section class="section section-no-border background-color-light m-0">
-				<div class="container">
-					<div class="row">
-						<div class="col">
+                <p class="custom-text-color-2">
+                  A Startup Specialist and a Strong Technologist with the deep
+                  understanding of Mobile and Cloud Space. 7+ years of
+                  comprehensive experience from product conceptualization to
+                  delivery.
+                </p>
+                <p class="custom-text-color-2">
+                  I have substantial experience in the architecture and
+                  implementation of SaaS transaction processing systems,
+                  microservices architecture, distributed systems, RESTful APIs,
+                  gRPC APIs, information classification and extraction and
+                  high-performance web applications.
+                </p>
+                <p>
+                  Worked in a leadership position as Technical Architect and
+                  Product Developer to handle end to end product development of
+                  large-scale systems. Have hired, bootstrapped and managed
+                  large teams to build scalable products using various
+                  technologies from scratch.
+                </p>
 
-							<div class="custom-box-details background-color-light custom-box-shadow-1 col-lg-8 ml-5 mb-5 mb-lg-4 float-right clearfix">
-								<h4>Personal Details</h4>
-								<div class="row">
-									<div class="col-md-6">
-										<ul class="custom-list-style-1 p-0 mb-0">
-											<li>
-												<span class="text-color-dark">Birthday:</span>
-												<span class="custom-text-color-2">7 April 1986</span>
-											</li>
-											<li>
-												<span class="text-color-dark">Marital:</span>
-												<span class="custom-text-color-2">Married</span>
-											</li>
-											<li>
-												<span class="text-color-dark">Nationality:</span>
-												<span class="custom-text-color-2">Indian</span>
-											</li>
-										</ul>
-									</div>
-									<div class="col-md-6">
-										<ul class="custom-list-style-1 p-0 mb-0">
-											<li>
-												<span class="text-color-dark">Skype:</span>
-												<span class="custom-text-color-2"><a class="custom-text-color-2" href="skype:yourskype?chat">yourskype</a></span>
-											</li>
-											<li>
-												<span class="text-color-dark">PHONE:</span>
-												<span class="custom-text-color-2"><a class="custom-text-color-2" href="tel:123456789">+91 8237 617 767</a></span>
-											</li>
-											<li>
-												<span class="text-color-dark">EMAIL:</span>
-												<span class="custom-text-color-2"><a class="custom-text-color-2" href="mailto:maheshbalushelke@gmail.com">maheshbalushelke@gmail.com</a></span>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</div>
+                <p>
+                  A Hardcore Product Specialist with the ability to visualize
+                  and deliver Product Roadmaps, Technology, Architecture and
+                  Cloud Infrastructure. A Mentor for Product Startups helps in
+                  creating strong teams, defining the MVP and subsequently the
+                  product and technology roadmaps required to start and
+                  go-beyond. Hands-on Full Stack Development experience in Web
+                  Apps.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">About Me</h2>
+        <section
+          id="experience"
+          class="section section-secondary section-no-border m-0"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2
+                  class="text-color-quaternary text-uppercase font-weight-extra-bold"
+                >
+                  Experience
+                </h2>
+                <section class="timeline custom-timeline" id="timeline">
+                  <div class="timeline-body">
+                    <article class="timeline-box right custom-box-shadow-2">
+                      <div class="row">
+                        <div
+                          class="experience-info col-lg-3 col-sm-5 background-color-primary"
+                        >
+                          <span class="from text-color-light text-uppercase">
+                            From
+                            <span class="font-weight-semibold">Feb 2017</span>
+                          </span>
+                          <span class="to text-color-light text-uppercase">
+                            To
+                            <span class="font-weight-semibold">Present</span>
+                          </span>
+                          <p class="text-color-light">(3+ Years)</p>
+                          <span
+                            class="company text-color-light font-weight-semibold"
+                          >
+                            GreyAtom Edutech pvt. ltd.
+                            <span
+                              class="company-location text-color-light font-weight-normal text-uppercase"
+                              >Mumbai, Maharashtra</span
+                            >
+                          </span>
+                        </div>
+                        <div
+                          class="experience-description col-lg-9 col-sm-7 background-color-light"
+                        >
+                          <h4 class="text-color-dark font-weight-semibold">
+                            Lead - Full Stask Engineering & QA
+                          </h4>
+                          <p class="custom-text-color-2">
+                            GreyAtom is based on the Education domain and
+                            majorly focuses on #DataScience,
+                            #ArtificialIntelligence #MachineLearning &
+                            #EmergingTechnologies. We help learners launch their
+                            successful careers with our industry-focused
+                            courses.
+                          </p>
+                          <p class="custom-text-color-2">
+                            After the acquisition of Interactive Intelligence by
+                            Genesys. I am started my Journey with GreyAtom as
+                            Lead - full stack Engineering & QA from 1st day of
+                            GreyAtom. In GreyAtom I am responsible for Product
+                            Architecture, Design, Structure, Quality. Here we
+                            have developed 3 product GLabs, Octo, CodeBlock from
+                            scratch.
+                          </p>
+                          <!-- <p class="custom-text-color-2"></p> -->
+                        </div>
+                      </div>
+                    </article>
+                    <article class="timeline-box right custom-box-shadow-2">
+                      <div class="row">
+                        <div
+                          class="experience-info col-lg-3 col-sm-5 background-color-primary"
+                        >
+                          <span class="from text-color-light text-uppercase">
+                            From
+                            <span class="font-weight-semibold">Nov 2015</span>
+                          </span>
+                          <span class="to text-color-light text-uppercase">
+                            To
+                            <span class="font-weight-semibold">Feb 2017</span>
+                          </span>
+                          <p class="text-color-light">(1 Year 3 Months)</p>
+                          <span
+                            class="company text-color-light font-weight-semibold"
+                          >
+                            Interactive Intelligence
+                            <span
+                              class="company-location text-color-light font-weight-normal text-uppercase"
+                              >Mumbai, Maharashtra</span
+                            >
+                          </span>
+                        </div>
+                        <div
+                          class="experience-description col-lg-9 col-sm-7 background-color-light"
+                        >
+                          <h4 class="text-color-dark font-weight-semibold">
+                            Software Engineer
+                          </h4>
+                          <p class="custom-text-color-2">
+                            Interactive Intelligence(ININ) was a
+                            telecommunications software and cloud computing
+                            development company that provided unified business
+                            communications solutions for call centers, Voice
+                            over IP companies, and business process automation.
+                            It is seamlessly connecting employees and customers
+                            across channels, on-premise and in the cloud.
+                          </p>
+                          <p class="custom-text-color-2">
+                            In December 2016, Interactive Intelligence was
+                            acquired by Genesys.
+                          </p>
+                          <p class="custom-text-color-2">
+                            After the acquisition of Customer360 By ININ my
+                            journey starts with ININ. here I am responsible for
+                            the Quality of the product. Application contains
+                            Ecosystem, Chat Messenger, Video Calling System,
+                            Ticketing System, Analytics.  Here we use below
+                            mentioned TechStack. PureCloud, PureConnect and
+                            PureEngage this are customer engagement platforms
+                            developed in ININ. In which I have worked on Pure
+                            Cloud. Majorly foused on API Automation Testing & UI
+                            Testing
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="timeline-box right custom-box-shadow-2">
+                      <div class="row">
+                        <div
+                          class="experience-info col-lg-3 col-sm-5 background-color-primary"
+                        >
+                          <span class="from text-color-light text-uppercase">
+                            From
+                            <span class="font-weight-semibold">July 2014</span>
+                          </span>
+                          <span class="to text-color-light text-uppercase">
+                            To
+                            <span class="font-weight-semibold">Nov 2015</span>
+                          </span>
+                          <p class="text-color-light">(1 Year 4 Months)</p>
+                          <span
+                            class="company text-color-light font-weight-semibold"
+                          >
+                            Customer360
+                            <span
+                              class="company-location text-color-light font-weight-normal text-uppercase"
+                              >Mumbai, Maharashtra</span
+                            >
+                          </span>
+                        </div>
+                        <div
+                          class="experience-description col-lg-9 col-sm-7 background-color-light"
+                        >
+                          <h4 class="text-color-dark font-weight-semibold">
+                            Lead - Quality Assurance
+                          </h4>
+                          <p class="custom-text-color-2">
+                            Customer360 (C360) brings in a whole new way of
+                            interacting with your customers - mobile-centric,
+                            omnichannel, and rich media-focused. Its an customer
+                            engagement software (web, mobile) for contact
+                            centres. It is a multi-channel solution using which
+                            support agents respond to customers and site
+                            visitors communications coming from channels like
+                            email, social media, live chat, video chat, in-App.
+                          </p>
+                          <p class="custom-text-color-2">
+                            In C360 I have started my journy as Manual cum
+                            Automation QA & I reach till Lead QA Engineer.
+                            Product Include EcoSystem, Ticketing System, Chat
+                            Messanger, Video Calling System, Analytics.
+                            Customer can create/raise a ticket using Email, Chat
+                            and any social medial Like Facebook, Tweeter,
+                            in-app, etc
+                          </p>
+                          <p class="custom-text-color-2">
+                            I am majorly focused on UI/UX & Quality of product.
+                            Done UI automation for C360 app here we have
+                            implemented data-driven framework for testing. For
+                            UI/UX, I am personally communicating with UI/UX Team
+                          </p>
+                          <p class="custom-text-color-2">
+                            TechStack: JAVA, REST, Spring Boot, Automation UI
+                            Testing
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="timeline-box right custom-box-shadow-2">
+                      <div class="row">
+                        <div
+                          class="experience-info col-lg-3 col-sm-5 background-color-primary"
+                        >
+                          <span class="from text-color-light text-uppercase">
+                            From
+                            <span class="font-weight-semibold">Feb 2014</span>
+                          </span>
+                          <span class="to text-color-light text-uppercase">
+                            To
+                            <span class="font-weight-semibold">July 2014</span>
+                          </span>
+                          <p class="text-color-light">(5 months)</p>
+                          <span
+                            class="company text-color-light font-weight-semibold"
+                          >
+                            Krish Mark Infotech India Pvt Ltd
+                            <span
+                              class="company-location text-color-light font-weight-normal text-uppercase"
+                              >Thane, Maharashtra</span
+                            >
+                          </span>
+                        </div>
+                        <div
+                          class="experience-description col-lg-9 col-sm-7 background-color-light"
+                        >
+                          <h4 class="text-color-dark font-weight-semibold">
+                            Software Trainee Tester
+                          </h4>
+                          <p class="custom-text-color-2">
+                            Krish Mark Infotech (India) Private Limited, is a
+                            consulting firm that provides quality Information
+                            Technology and Management Consulting services with
+                            the expertise and capabilities to serve the needs of
+                            clients in the private and public sectors.
+                          </p>
+                          <p class="custom-text-color-2">
+                            I have joined Krishmark as Software Trainee Tester.
+                            Here I have worked for multiple product like Agent
+                            Recruitment Training License [ARTL] , Channel
+                            Hierarchy Management System [CHMS], CommBRIDGE -
+                            Customer Relationship Management [CRM], CommBRIDGE –
+                            Lead Management System [LMS]. I have write TestCases
+                            for these applications & apply them manually on them
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="timeline-box right custom-box-shadow-2">
+                      <div class="row">
+                        <div
+                          class="experience-info col-lg-3 col-sm-5 background-color-primary"
+                        >
+                          <span class="from text-color-light text-uppercase">
+                            From
+                            <span class="font-weight-semibold">Feb 2014</span>
+                          </span>
+                          <span class="to text-color-light text-uppercase">
+                            To
+                            <span class="font-weight-semibold">Feb 2013</span>
+                          </span>
+                          <p class="text-color-light">(1 Year)</p>
+                          <span
+                            class="company text-color-light font-weight-semibold"
+                          >
+                            Iron Mountain
+                            <span
+                              class="company-location text-color-light font-weight-normal text-uppercase"
+                              >Thane, Maharashtra</span
+                            >
+                          </span>
+                        </div>
+                        <div
+                          class="experience-description col-lg-9 col-sm-7 background-color-light"
+                        >
+                          <h4 class="text-color-dark font-weight-semibold">
+                            Data Entry Operator
+                          </h4>
+                          <p class="custom-text-color-2">
+                            Iron Mountain Inc. (NYSE: IRM) is an American
+                            enterprise information management services company
+                            founded in 1951 and headquartered in Boston,
+                            Massachusetts. Its records management, information
+                            destruction, and data backup and recovery services
+                            are supplied to more than 220,000 customers
+                            throughout North America, Europe, Latin America,
+                            Africa, and Asia. As of 2016 over 94% of Fortune
+                            1000 companies use Iron Mountain's services to store
+                            and manage their information
+                          </p>
+                          <p class="custom-text-color-2">
+                            In early day of my carrier I have joined Iron
+                            Mountain Inc through {XYZ} consoltancy. This is my
+                            first industrial experiance. Here I have learn a lot
+                            about Excel. Using Excel I am generating daily &
+                            monthly MIS.
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                    <article class="timeline-box right custom-box-shadow-2">
+                      <div class="row">
+                        <div
+                          class="experience-info col-lg-3 col-sm-5 background-color-primary"
+                        >
+                          <span class="from text-color-light text-uppercase">
+                            From
+                            <span class="font-weight-semibold">Oct 2007</span>
+                          </span>
+                          <span class="to text-color-light text-uppercase">
+                            To
+                            <span class="font-weight-semibold">Mar 2010</span>
+                          </span>
+                          <p class="text-color-light">(1 Year)</p>
+                          <span
+                            class="company text-color-light font-weight-semibold"
+                          >
+                            MKs Commerce Tutorial
+                            <span
+                              class="company-location text-color-light font-weight-normal text-uppercase"
+                              >Thane, Maharashtra</span
+                            >
+                          </span>
+                        </div>
+                        <div
+                          class="experience-description col-lg-9 col-sm-7 background-color-light"
+                        >
+                          <h4 class="text-color-dark font-weight-semibold">
+                            Academic Counselor / Trainer(Information Technology)
+                          </h4>
+                          <p class="custom-text-color-2">
+                            MKs Commerce Tutorial is an training institute for
+                            Commerce, CA, ICWAI students. located in Badlapur,
+                            Thane, Maharashtra
+                          </p>
+                          <p class="custom-text-color-2">
+                            In my academics days I am worked in MKs Commerce
+                            Tutorial as Academic Counselor / Trainer only for IT
+                            subjects. Here I use to teach FoxPro, C, C++ etc.
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                    <div class="timeline-bar"></div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </section>
 
-							<p class="custom-text-color-2">A Startup Specialist and a Strong Technologist with the deep understanding of Mobile and Cloud Space. 7+ years of comprehensive experience from product conceptualization to delivery.</p>
-							<p class="custom-text-color-2">I have substantial experience in the architecture and implementation of SaaS transaction processing systems, microservices architecture, distributed systems, RESTful APIs, gRPC APIs, information classification and extraction and high-performance web applications.</p>
-							<p> Worked in a leadership position as Technical Architect and Product Developer to handle end to end product development of large-scale systems.
-								Have hired, bootstrapped and managed large teams to build scalable products using various technologies from scratch.
-							</p>
+        <section
+          id="projects"
+          class="section section-no-border background-color-light m-0"
+        >
+          <div class="container">
+            <h2
+              class="text-color-quaternary font-weight-extra-bold text-uppercase"
+            >
+              Projects
+            </h2>
+            <div class="row">
+              <div class="col">
+                <div class="tabs tabs-bottom tabs-center tabs-simple">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item active">
+                      <a
+                        class="nav-link"
+                        href="#tabsNavigationSimple1"
+                        data-toggle="tab"
+                        >Glabs</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="#tabsNavigationSimple2"
+                        data-toggle="tab"
+                        >Octo</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="#tabsNavigationSimple3"
+                        data-toggle="tab"
+                        >CodeBlock</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        href="#tabsNavigationSimple4"
+                        data-toggle="tab"
+                        >C360</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div class="tab-pane active" id="tabsNavigationSimple1">
+                      <div class="text-left">
+                        <h4>GLabs (commit.live)</h4>
+                        <p>
+                          GLabs - GreyAtom Learning Platform is an in-house
+                          cloud-based learning platform. It is a SAS based
+                          application which manages Ecosystem, Content,
+                          Evaluation, Analytics.
+                        </p>
+                        <p>
+                          We have develop GLabs from scratch. I have involve in
+                          all the life cycle of GLabs like select design-patern,
+                          choose TechStack, selection of Third-Party
+                          applications etc. program, concept, project , quizzes,
+                          topic , competition & their versions is core of system
+                          <!-- Content: Based on user permission he can create/manage content. versioning is an core of content-->
+                          <!-- Content include Program, Concepts, Assessments, Projects, Competitions, Modules etc.-->
+                          <!-- Program includes Modules & Assessments.-->
+                          <!-- Module can be create/manage with Assessments & Concepts-->
+                          <!-- Concept  can be create/manage with topic, quizzes, projects.-->
+                          <!-- Assessment can be create/manage with quizzes, projects.-->
+                          <!-- Competitions can be create/manage with challenges-->
 
-							<p>A Hardcore Product Specialist with the ability to visualize and deliver Product Roadmaps, Technology, Architecture and Cloud Infrastructure. A Mentor for Product Startups helps in creating strong teams, defining the MVP and subsequently the product and technology roadmaps required to start and go-beyond. Hands-on Full Stack Development experience in Web Apps.</p>
+                          <!-- Topic has multiple types Like, Theory , Video , CodeBlock (coding practice), Interactive etc.-->
+                          <!-- Quizzes have two type Fixed, Random.-->
+                          <!-- User can create Project with Type CodeBlock, PloyGlot, Code Assignment, Mini Challenge etc.-->
+                        </p>
+                        <p>
+                          In BackEnd services, we have implemented Microservice
+                          Architecture with transaction management system &
+                          caching. Each microservice has its own boundry &
+                          defined working areas. Each microservice contain
+                          separate database. Microservice Architecture design
+                          with bidirectional flow to avoid Deadlock Situation.
+                          It is created in JAVA, with spring boot, gPRC,
+                          ProtoBuf, REST, etc
+                          <br />
+                          In FrontEnd services, we have developed "Custom Form
+                          API" using "React,Redux,React Hooks", & online
+                          code-editor for multiple "Programming Languages" with
+                          theme mode using "Monaco Editor"
+                          <br />
+                          In Automation Testing are focused on API & UI Testing,
+                          also designed inhouse framework for Automation.
+                        </p>
 
-						</div>
-					</div>
-				</div>
-			</section>
+                        <p>
+                          Backend Stack : JAVA, Spring boot, REST, gRPC,
+                          ProtoBuf, Postgresql, Redis, QueryDsl, FlyWay,
+                          pub-sub, Retrofit2, Swagger2,
+                          <br />
+                          FrontEnd Stack : ReactJS, Node
+                          <br />
+                          Testing Stack : JAVA, Retrofit, TestNG, ReportNG,
+                          Log4j
+                          <br />
+                          Third-Party Integration : GitHub, LiknedIN, Google,
+                          Facebook, Medium, Jotform, pdfcrowd
+                          <br />
+                          Third-Party Application & IDE : JIRA, BitBucket,
+                          Intellij, WebStrom, Visual Studio Code, DBeaver,
+                          Jenkin
+                        </p>
+                      </div>
+                      <div
+                        class="row image-gallery lightbox"
+                        data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}"
+                      >
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-1.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-1.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-2.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-2.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-3.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-3.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-5.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-5.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-6.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-6.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-7.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-7.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-8.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-8.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                        <div
+                          class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                        >
+                          <div class="image-gallery-item mb-4 pb-3">
+                            <a
+                              href="img/demos/resume/project/glabs-9.jpg"
+                              class="lightbox-portfolio"
+                            >
+                              <span class="thumb-info custom-thumb-info-1">
+                                <span class="thumb-info-wrapper">
+                                  <span class="thumb-info-plus"></span>
+                                  <img
+                                    src="img/demos/resume/project/glabs-9.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                  />
+                                </span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tabsNavigationSimple2">
+                      <div class="text-left">
+                        <h4>Octo</h4>
+                        <p>
+                          Octo is java based application. Which accept code of
+                          different different languages like Java, Python, C,
+                          CPP, JavaScript. Execute them on their platform. Every
+                          platform is generated at runtime based on language of
+                          code with the help of docker container. For every Code
+                          evaluation/execution request application
+                          programmatically trigger container & return output of
+                          execution. It is most scalable project of GreyAtom.
+                          Glab can support N no of language for execution
+                        </p>
 
-			<section id="experience" class="section section-secondary section-no-border m-0">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Experience</h2>
-							<section class="timeline custom-timeline" id="timeline">
-								<div class="timeline-body">
-									<article class="timeline-box right custom-box-shadow-2">
-										<div class="row">
-											<div class="experience-info col-lg-3 col-sm-5 background-color-primary">
-												<span class="from text-color-light text-uppercase">
-													From
-													<span class="font-weight-semibold">Feb 2017</span>
-												</span>
-												<span class="to text-color-light text-uppercase">
-													To
-													<span class="font-weight-semibold">Present</span>
-												</span>
-												<p class="text-color-light">(3 Years 6 Months)</p>
-												<span class="company text-color-light font-weight-semibold">
-													GreyAtom Edutech pvt. ltd.
-													<span class="company-location text-color-light font-weight-normal text-uppercase">Mumbai, Maharashtra</span>
-												</span>
-											</div>
-											<div class="experience-description col-lg-9 col-sm-7 background-color-light">
-												<h4 class="text-color-dark font-weight-semibold">Lead - Full Stask Engineering & QA</h4>
-												<p class="custom-text-color-2">
-													GreyAtom is based on the Education domain and majorly focuses on #DataScience, #ArtificialIntelligence #MachineLearning & #EmergingTechnologies.
-													We help learners launch their successful careers with our industry-focused courses.
-												</p>
-												<p class="custom-text-color-2">After the acquisition of Interactive Intelligence by Genesys.
-													I am started my Journey with GreyAtom as Lead - full stack Engineering & QA from 1st day of GreyAtom.
-													In GreyAtom I am responsible for Product Architecture, Design, Structure, Quality.
-													Here we have developed 3 product GLabs, Octo, CodeBlock from scratch.
-													TechStack:
-												</p>
-												<p class="custom-text-color-2">Stack:</p>
-											</div>
-										</div>
-									</article>
-									<article class="timeline-box right custom-box-shadow-2">
-										<div class="row">
-											<div class="experience-info col-lg-3 col-sm-5 background-color-primary">
-												<span class="from text-color-light text-uppercase">
-													From
-													<span class="font-weight-semibold">Nov 2015</span>
-												</span>
-												<span class="to text-color-light text-uppercase">
-													To
-													<span class="font-weight-semibold">Feb 2017</span>
-												</span>
-												<p class="text-color-light">(1 Year 3 Months)</p>
-												<span class="company text-color-light font-weight-semibold">
-													Interactive Intelligence
-													<span class="company-location text-color-light font-weight-normal text-uppercase">Mumbai, Maharashtra</span>
-												</span>
-											</div>
-											<div class="experience-description col-lg-9 col-sm-7 background-color-light">
-												<h4 class="text-color-dark font-weight-semibold">Software Engineer</h4>
-												<p class="custom-text-color-2"> Interactive Intelligence(ININ) was a telecommunications software and cloud computing development company that provided unified business communications solutions for call centers, Voice over IP companies, and business process automation. It is seamlessly connecting employees and customers across channels, on-premise and in the cloud.</p>
-												<p class="custom-text-color-2">	In December 2016, Interactive Intelligence  was acquired by Genesys. </p>
-												<p class="custom-text-color-2">	After the acquisition of Customer360 By ININ my journey starts with ININ. here I am responsible for the Quality of the product. Application contains Ecosystem, Chat Messenger, Video Calling System, Ticketing System, Analytics.  Here we use below mentioned TechStack. PureCloud, PureConnect and PureEngage this are customer engagement platforms developed in ININ. In which I have worked on Pure Cloud. Majorly foused on API Automation Testing & UI Testing</p>
-											</div>
-										</div>
-									</article>
-									<article class="timeline-box right custom-box-shadow-2">
-										<div class="row">
-											<div class="experience-info col-lg-3 col-sm-5 background-color-primary">
-												<span class="from text-color-light text-uppercase">
-													From
-													<span class="font-weight-semibold">July 2014</span>
-												</span>
-												<span class="to text-color-light text-uppercase">
-													To
-													<span class="font-weight-semibold">Nov 2015</span>
-												</span>
-												<p class="text-color-light">(1 Year 4 Months)</p>
-												<span class="company text-color-light font-weight-semibold">
-													Customer360
-													<span class="company-location text-color-light font-weight-normal text-uppercase">Mumbai, Maharashtra</span>
-												</span>
-											</div>
-											<div class="experience-description col-lg-9 col-sm-7 background-color-light">
-												<h4 class="text-color-dark font-weight-semibold">Lead - Quality Assurance</h4>
-												<p class="custom-text-color-2">Customer360 (C360) brings in a whole new way of interacting with your customers - mobile-centric, omnichannel, and rich media-focused. Its an customer engagement software (web, mobile) for contact centres. It is a multi-channel solution using which support agents respond to customers and site visitors communications coming from channels like email, social media, live chat, video chat, in-App.</p>
-												<p class="custom-text-color-2">	In C360 I have started my journy as Manual cum Automation QA & I reach till Lead QA Engineer. Product Include EcoSystem, Ticketing System, Chat Messanger, Video Calling System, Analytics. Customer can create/raise a ticket  using  Email, Chat and any social medial Like Facebook, Tweeter, in-app, etc</p>
-												<p class="custom-text-color-2">	I am majorly focused on UI/UX & Quality of product. Done UI automation for C360 app here we have implemented data-driven framework for testing. For UI/UX,  I am personally communicating with UI/UX Team  </p>
-												<p class="custom-text-color-2">TechStack: JAVA, REST, Spring Boot, Automation UI Testing</p>
+                        <p>
+                          Octo also support to execute Frontend Program to
+                          execute & test. Project which based on NodeJs,
+                          JavaScript, HTML, CSS are supported by Octo. At time
+                          of execution, its trigger headless browser within
+                          container to evaluate frontend program.
+                        </p>
 
-											</div>
-										</div>
-									</article>
-									<article class="timeline-box right custom-box-shadow-2">
-										<div class="row">
-											<div class="experience-info col-lg-3 col-sm-5 background-color-primary">
-												<span class="from text-color-light text-uppercase">
-													From
-													<span class="font-weight-semibold">Feb 2013</span>
-												</span>
-												<span class="to text-color-light text-uppercase">
-													To
-													<span class="font-weight-semibold">July 2013</span>
-												</span>
-												<p class="text-color-light">(5 months)</p>
-												<span class="company text-color-light font-weight-semibold">
-													Krish Mark Infotech India Pvt Ltd
-													<span class="company-location text-color-light font-weight-normal text-uppercase">Thane, Maharashtra</span>
-												</span>
-											</div>
-											<div class="experience-description col-lg-9 col-sm-7 background-color-light">
-												<h4 class="text-color-dark font-weight-semibold">Software Trainee Tester</h4>
-												<p class="custom-text-color-2">Krish Mark Infotech (India) Private Limited, is a consulting firm that provides quality Information Technology and Management Consulting services with the expertise and capabilities to serve the needs of clients in the private and public sectors. </p>
-												<p class="custom-text-color-2">I have joined Krishmark as Software Trainee Tester. Here I have worked for multiple product like Agent Recruitment Training License [ARTL] , Channel Hierarchy Management System [CHMS], CommBRIDGE - Customer Relationship Management [CRM], CommBRIDGE – Lead Management System [LMS]. I have write TestCases for these applications & apply them manually on them </p>
-											</div>
-										</div>
-									</article>
-									<article class="timeline-box right custom-box-shadow-2">
-										<div class="row">
-											<div class="experience-info col-lg-3 col-sm-5 background-color-primary">
-												<span class="from text-color-light text-uppercase">
-													From
-													<span class="font-weight-semibold">Feb 2013</span>
-												</span>
-												<span class="to text-color-light text-uppercase">
-													To
-													<span class="font-weight-semibold">Feb 2012</span>
-												</span>
-												<p class="text-color-light">(1 Year)</p>
-												<span class="company text-color-light font-weight-semibold">
-													Iron Mountain
-													<span class="company-location text-color-light font-weight-normal text-uppercase">Thane, Maharashtra</span>
-												</span>
-											</div>
-											<div class="experience-description col-lg-9 col-sm-7 background-color-light">
-												<h4 class="text-color-dark font-weight-semibold">Data Entry Operator</h4>
-												<p class="custom-text-color-2">Iron Mountain Inc. (NYSE: IRM) is an American enterprise information management services company founded in 1951 and headquartered in Boston, Massachusetts. Its records management, information destruction, and data backup and recovery services are supplied to more than 220,000 customers throughout North America, Europe, Latin America, Africa, and Asia. As of 2016 over 94% of Fortune 1000 companies use Iron Mountain's services to store and manage their information</p>
-												<p class="custom-text-color-2">In early day of my carrier I have joined Iron Mountain Inc through {XYZ} consoltancy. This is my first industrial experiance. Here I have learn a lot about Excel. Using Excel I am generating daily & monthly MIS. </p>
-											</div>
-										</div>
-									</article>
-									<article class="timeline-box right custom-box-shadow-2">
-										<div class="row">
-											<div class="experience-info col-lg-3 col-sm-5 background-color-primary">
-												<span class="from text-color-light text-uppercase">
-													From
-													<span class="font-weight-semibold">Oct 2007</span>
-												</span>
-												<span class="to text-color-light text-uppercase">
-													To
-													<span class="font-weight-semibold">Mar 2010</span>
-												</span>
-												<p class="text-color-light">(1 Year)</p>
-												<span class="company text-color-light font-weight-semibold">
-													MKs Commerce Tutorial
-													<span class="company-location text-color-light font-weight-normal text-uppercase">Thane, Maharashtra</span>
-												</span>
-											</div>
-											<div class="experience-description col-lg-9 col-sm-7 background-color-light">
-												<h4 class="text-color-dark font-weight-semibold">Academic Counselor / Trainer(Information Technology)</h4>
-												<p class="custom-text-color-2">MKs Commerce Tutorial is an training institute for Commerce, CA, ICWAI students. located in Badlapur, Thane, Maharashtra </p>
-												<p class="custom-text-color-2">In my academics days I am worked in MKs Commerce Tutorial as Academic Counselor / Trainer only for IT subjects. Here I use to teach FoxPro, C, C++ etc.</p>
-											</div>
-										</div>
-									</article>
-									<div class="timeline-bar"></div>
-								</div>
-							</section>
-						</div>
-					</div>
-				</div>
-			</section>
+                        <p>
+                          Backend Stack : JAVA, Spring boot, REST, Swagger2,
+                          Docker
+                          <br />
+                          Third-Party Application & IDE : JIRA, BitBucket,
+                          Intellij, Jenkin
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tabsNavigationSimple3">
+                      <div class="text-left">
+                        <h4>500+ Google Fonts</h4>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Curabitur pellentesque neque eget diam posuere
+                          porta. Quisque ut nulla at nunc
+                          <a href="#">vehicula</a> lacinia.
+                        </p>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipiscing
+                          elit. Curabitur pellentesque neque eget diam posuere
+                          porta. Quisque ut nulla at nunc
+                          <a href="#">vehicula</a> lacinia. Proin adipiscing
+                          porta tellus. In eu justo a felis faucibus ornare vel
+                          id metus. Vestibulum ante ipsum primis in faucibus
+                          orci luctus et ultrices posuere cubilia Curae; In eu
+                          libero ligula. Fusce eget metus lorem, ac viverra leo.
+                          Nullam convallis, arcu vel pellentesque sodales, nisi
+                          est varius diam, ac ultrices sem ante quis sem. Proin
+                          ultricies volutpat sapien, nec scelerisque ligula
+                          mollis lobortis.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="tab-pane" id="tabsNavigationSimple4">
+                      <div class="text-left">
+                        <h4>Colors</h4>
+                        <p>
+                          Customer360 is a (Software as a Service) SaaS
+                          applications that help businesses enhance customer
+                          relations using non-voice communications channels. It
+                          got acquired by ININ, a Nasdaq listed US based company
+                          and later we merged the product to PureCloud.
+                          PureCloud is online call center solution developed by
+                          ININ.
+                        </p>
+                        <div
+                          class="row image-gallery lightbox"
+                          data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}"
+                        >
+                          <div
+                            class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                          >
+                            <div class="image-gallery-item mb-4 pb-3">
+                              <a
+                                href="img/demos/resume/project/C360_1.jpeg"
+                                class="lightbox-portfolio"
+                              >
+                                <span class="thumb-info custom-thumb-info-1">
+                                  <span class="thumb-info-wrapper">
+                                    <span class="thumb-info-plus"></span>
+                                    <img
+                                      src="img/demos/resume/project/C360_1.jpeg"
+                                      class="img-fluid"
+                                      alt=""
+                                    />
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                          >
+                            <div class="image-gallery-item mb-4 pb-3">
+                              <a
+                                href="img/demos/resume/project/C360_2.jpeg"
+                                class="lightbox-portfolio"
+                              >
+                                <span class="thumb-info custom-thumb-info-1">
+                                  <span class="thumb-info-wrapper">
+                                    <span class="thumb-info-plus"></span>
+                                    <img
+                                      src="img/demos/resume/project/C360_2.jpeg"
+                                      class="img-fluid"
+                                      alt=""
+                                    />
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                          >
+                            <div class="image-gallery-item mb-4 pb-3">
+                              <a
+                                href="img/demos/resume/project/C360_3.jpeg"
+                                class="lightbox-portfolio"
+                              >
+                                <span class="thumb-info custom-thumb-info-1">
+                                  <span class="thumb-info-wrapper">
+                                    <span class="thumb-info-plus"></span>
+                                    <img
+                                      src="img/demos/resume/project/C360_3.jpeg"
+                                      class="img-fluid"
+                                      alt=""
+                                    />
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                          >
+                            <div class="image-gallery-item mb-4 pb-3">
+                              <a
+                                href="img/demos/resume/project/C360_4.jpeg"
+                                class="lightbox-portfolio"
+                              >
+                                <span class="thumb-info custom-thumb-info-1">
+                                  <span class="thumb-info-wrapper">
+                                    <span class="thumb-info-plus"></span>
+                                    <img
+                                      src="img/demos/resume/project/C360_4.jpeg"
+                                      class="img-fluid"
+                                      alt=""
+                                    />
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                          >
+                            <div class="image-gallery-item mb-4 pb-3">
+                              <a
+                                href="img/demos/resume/project/C360_5.jpeg"
+                                class="lightbox-portfolio"
+                              >
+                                <span class="thumb-info custom-thumb-info-1">
+                                  <span class="thumb-info-wrapper">
+                                    <span class="thumb-info-plus"></span>
+                                    <img
+                                      src="img/demos/resume/project/C360_5.jpeg"
+                                      class="img-fluid"
+                                      alt=""
+                                    />
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                          >
+                            <div class="image-gallery-item mb-4 pb-3">
+                              <a
+                                href="img/demos/resume/project/C360_6.jpeg"
+                                class="lightbox-portfolio"
+                              >
+                                <span class="thumb-info custom-thumb-info-1">
+                                  <span class="thumb-info-wrapper">
+                                    <span class="thumb-info-plus"></span>
+                                    <img
+                                      src="img/demos/resume/project/C360_6.jpeg"
+                                      class="img-fluid"
+                                      alt=""
+                                    />
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          <div
+                            class="col-12 col-sm-6 col-lg-3 isotope-item websites"
+                          >
+                            <div class="image-gallery-item mb-4 pb-3">
+                              <a
+                                href="img/demos/resume/project/C360_7.jpeg"
+                                class="lightbox-portfolio"
+                              >
+                                <span class="thumb-info custom-thumb-info-1">
+                                  <span class="thumb-info-wrapper">
+                                    <span class="thumb-info-plus"></span>
+                                    <img
+                                      src="img/demos/resume/project/C360_7.jpeg"
+                                      class="img-fluid"
+                                      alt=""
+                                    />
+                                  </span>
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-			<section id="projects" class="section section-no-border background-color-light m-0">
-				<div class="container">
-	
-					<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">Projects</h2>
-					<div class="row">
-						<div class="col">
+        <section
+          id="education"
+          class="section section-no-border custom-background-color-1 m-0"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2
+                  class="text-color-quaternary text-uppercase font-weight-extra-bold m-0"
+                >
+                  Education
+                </h2>
+                <div
+                  class="owl-carousel nav-bottom custom-dots-style-1 mb-0"
+                  data-plugin-options="{'items': 1, 'loop': false, 'dots': true, 'nav': false}"
+                >
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-6 pb-4">
+                      <div
+                        class="custom-box-details-2 background-color-light custom-box-shadow-3"
+                      >
+                        <i class="icon-graduation icons text-color-primary"></i>
+                        <h4 class="font-weight-semibold text-color-dark m-0">
+                          Tilak University, Pune
+                        </h4>
+                        <p class="custom-text-color-2 mb-1">
+                          Bachelors in Computer Application
+                        </p>
+                        <strong class="text-color-primary">2001-2017</strong>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 pb-4">
+                      <div
+                        class="custom-box-details-2 background-color-light custom-box-shadow-3"
+                      >
+                        <i class="icon-graduation icons text-color-primary"></i>
+                        <h4 class="font-weight-semibold text-color-dark m-0">
+                          Mumbai University
+                        </h4>
+                        <p class="custom-text-color-2 mb-1">
+                          Bachelor of Commerce
+                        </p>
+                        <strong class="text-color-primary">2002-2007</strong>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-6 pb-4">
+                      <div
+                        class="custom-box-details-2 background-color-light custom-box-shadow-3"
+                      >
+                        <i class="icon-graduation icons text-color-primary"></i>
+                        <h4 class="font-weight-semibold text-color-dark m-0">
+                          Mumbai University
+                        </h4>
+                        <p class="custom-text-color-2 mb-1">
+                          Higher Secondary Certificate
+                        </p>
+                        <strong class="text-color-primary">2002</strong>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 pb-4">
+                      <div
+                        class="custom-box-details-2 background-color-light custom-box-shadow-3"
+                      >
+                        <i class="icon-graduation icons text-color-primary"></i>
+                        <h4 class="font-weight-semibold text-color-dark m-0">
+                          Maharashtra State Board
+                        </h4>
+                        <p class="custom-text-color-2 mb-1">
+                          Secondary School Certificate
+                        </p>
+                        <strong class="text-color-primary">2000</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-							<div class="tabs tabs-bottom tabs-center tabs-simple">
-								<ul class="nav nav-tabs">
-									<li class="nav-item active">
-										<a class="nav-link" href="#tabsNavigationSimple1" data-toggle="tab">Glabs</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#tabsNavigationSimple2" data-toggle="tab">Octo</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#tabsNavigationSimple3" data-toggle="tab">CodeBlock</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#tabsNavigationSimple4" data-toggle="tab">C360</a>
-									</li>
-								</ul>
-								<div class="tab-content">
-									<div class="tab-pane active" id="tabsNavigationSimple1">
-										<div class="text-left">
-											<h4>GLabs (commit.live)</h4>
-											<p>
-												GLabs - GreyAtom Learning Platform is an in-house cloud-based learning platform.
-												It is a SAS based application which manages Ecosystem, Content, Evaluation, Analytics.
-											</p>
-											<p>
-												We have develop GLabs from scratch. I have involve in all the life cycle of GLabs like select design-patern, choose TechStack, selection of Third-Party applications etc.
-												program, concept, project , quizzes, topic , competition & their versions is core of system
-<!--												Content: Based on user permission he can create/manage content. versioning is an core of content-->
-<!--												Content include Program, Concepts, Assessments, Projects, Competitions, Modules etc.-->
-<!--												Program includes Modules & Assessments.-->
-<!--												Module can be create/manage with Assessments & Concepts-->
-<!--												Concept  can be create/manage with topic, quizzes, projects.-->
-<!--												Assessment can be create/manage with quizzes, projects.-->
-<!--												Competitions can be create/manage with challenges-->
+        <section
+          id="skills"
+          class="section section-no-border background-color-light m-0"
+        >
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-md-6 col-lg-8 mb-4 mb-md-0">
+                <h2
+                  class="text-color-quaternary text-uppercase font-weight-extra-bold"
+                >
+                  Strength & Skills
+                </h2>
+                <div class="row pb-4">
+                  <div class="col-lg-4">
+                    <div class="progress-bars custom-progress-bars">
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Start-Ups</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Innovation</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Products</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>UI / UX</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Business</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>E-commerce</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Creative</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Microservices</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Monolith</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="progress-bars custom-progress-bars">
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.svg"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Java</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/react.svg"
+                            class="skills"
+                            alt="react"
+                          />
+                        </span>
+                        <span>React</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/docker-icon.svg"
+                            class="skills"
+                            alt="docker"
+                          />
+                        </span>
+                        <span>Docker</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Automation Testing</span>
+                      </div>
+                      <div class="text-color-dark font-weight-semibold text-uppercase text-2" >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>RestAPI</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>DevOps</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/postgresql.svg"
+                            class="skills"
+                            alt="PostgreSql"
+                          />
+                        </span>
+                        <span>PostgreSql</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/aws.svg"
+                            class="skills"
+                            alt="aws"
+                          />
+                        </span>
+                        <span>AWS</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/jira.svg"
+                            class="skills"
+                            alt="jira"
+                          />
+                        </span>
+                        <span>JIRA</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="progress-bars custom-progress-bars">
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Product Management</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Customer Success</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Analytics</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>Building team</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/google-cloud.svg"
+                            class="skills"
+                            alt="google-cloud"
+                          />
+                        </span>
+                        <span>Google Cloud</span>
+                      </div>
 
-<!--												Topic has multiple types Like, Theory , Video , CodeBlock (coding practice), Interactive etc.-->
-<!--												Quizzes have two type Fixed, Random.-->
-<!--												User can create Project with Type CodeBlock, PloyGlot, Code Assignment, Mini Challenge etc.-->
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/java.png"
+                            class="skills"
+                            alt="Java"
+                          />
+                        </span>
+                        <span>gRPC</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/python.svg"
+                            class="skills"
+                            alt="python"
+                          />
+                        </span>
+                        <span>Python</span>
+                      </div>
+                      <div
+                        class="text-color-dark font-weight-semibold text-uppercase text-2"
+                      >
+                        <span>
+                          <img
+                            src="img/demos/resume/skills/spring-icon.svg"
+                            class="skills"
+                            alt="spring-boot"
+                          />
+                        </span>
+                        <span>Spring boot</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4">
+                <div class="row">
+                  <div class="col">
+                    <div
+                      class="custom-box-details background-color-light custom-box-shadow-1"
+                    >
+                      <h4 class="text-color-dark">Languages</h4>
+                      <ul class="custom-list-style-1 p-0">
+                        <li>
+                          <span
+                            class="font-weight-semibold custom-max-width-1 text-color-dark"
+                            ><img
+                              src="img/blank.gif"
+                              class="flag flag-us mr-1"
+                              alt="English"
+                            />English:</span
+                          >
+                          <span class="custom-text-color-2">Basic</span>
+                        </li>
+                        <li>
+                          <span
+                            class="font-weight-semibold custom-max-width-1 text-color-dark"
+                          >
+                            <img
+                              src="img/blank.gif"
+                              class="flag flag-in mr-1"
+                              alt="Japnese"
+                            />Hindi:</span
+                          >
+                          <span class="custom-text-color-2">Advanced</span>
+                        </li>
+                        <li>
+                          <span
+                            class="font-weight-semibold custom-max-width-1 text-color-dark"
+                            ><img
+                              src="img/blank.gif"
+                              class="flag flag-in mr-1"
+                              alt="Japnese"
+                            />Marathi:</span
+                          >
+                          <span class="custom-text-color-2">Advanced</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-											</p>
-											<p>
-												In BackEnd services, we have implemented Microservice Architecture with transaction management system & caching. Each microservice has its own boundry & defined working areas. Each microservice contain separate database. Microservice Architecture design with bidirectional flow to avoid Deadlock Situation.
-												It is created in JAVA, with spring boot, gPRC, ProtoBuf, REST, etc
-											<br/>
-												In FrontEnd services, we have developed "Custom Form API" using "React,Redux,React Hooks", & online code-editor for multiple "Programming Languages" with theme mode using "Monaco Editor"
-												<br/>
-												In Automation Testing are focused on API & UI Testing, also designed inhouse framework for Automation.
-											</p>
+        <section
+          id="portfolio"
+          class="section section-no-border background-color-secondary m-0"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2
+                  class="text-color-quaternary font-weight-extra-bold text-uppercase"
+                >
+                  Portfolio
+                </h2>
+                <ul
+                  class="nav nav-pills sort-source custom-nav-sort mb-4"
+                  data-sort-id="portfolio"
+                  data-option-key="filter"
+                >
+                  <li class="nav-item active" data-option-value="*">
+                    <a class="nav-link text-dark active" href="#">Show All</a>
+                  </li>
+                  <li class="nav-item" data-option-value=".websites">
+                    <a class="nav-link text-dark" href="#">Certificate</a>
+                  </li>
+                  <li class="nav-item" data-option-value=".logos">
+                    <a class="nav-link text-dark" href="#">Team Recognition</a>
+                  </li>
+                </ul>
+                <div
+                  class="sort-destination-loader sort-destination-loader-showing"
+                >
+                  <div
+                    class="row image-gallery sort-destination lightbox"
+                    data-sort-id="portfolio"
+                    data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}"
+                  >
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/Sangam & Mahesh (1).jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/Sangam & Mahesh (1).jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/IMG_20210120_173559_1.jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/IMG_20210120_173559_1.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/IMG_20210120_173520_1.jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/IMG_20210120_173520_1.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/avenger1.jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/avenger1.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/avenger2.png"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/avenger2.png"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/IMG_20210120_174824_1.jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/IMG_20210120_174824_1.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/IMG_20210120_174905_1.jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/IMG_20210120_174905_1.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/IMG_20210120_174943_1.jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/IMG_20210120_174943_1.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
+                      <div class="image-gallery-item mb-4 pb-3">
+                        <a
+                          href="img/demos/resume/certificateAndReg/IMG_20210120_175012_1.jpg"
+                          class="lightbox-portfolio"
+                        >
+                          <span class="thumb-info custom-thumb-info-1">
+                            <span class="thumb-info-wrapper">
+                              <span class="thumb-info-plus"></span>
+                              <img
+                                src="img/demos/resume/certificateAndReg/IMG_20210120_175012_1.jpg"
+                                class="img-fluid"
+                                alt=""
+                              />
+                            </span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-											<p>
-												Backend Stack : JAVA, Spring boot, REST, gRPC, ProtoBuf, Postgresql, Redis, QueryDsl, FlyWay, pub-sub, Retrofit2, Swagger2,
-												<br/>
-												FrontEnd Stack : ReactJS, Node
-												<br/>
-												Testing Stack : JAVA, Retrofit, TestNG, ReportNG, Log4j
-												<br/>
-												Third-Party Integration  : GitHub, LiknedIN, Google, Facebook, Medium, Jotform, pdfcrowd
-												<br/>
-												Third-Party Application & IDE  : JIRA, BitBucket, Intellij, WebStrom, Visual Studio Code, DBeaver, Jenkin
-											</p>
+        <section
+          id="recommendations"
+          class="section section-no-border background-color-light m-0"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2
+                  class="text-color-quaternary font-weight-extra-bold text-uppercase"
+                >
+                  Recommendations
+                </h2>
+              </div>
+              <div class="col-lg-12 p-0">
+                <div
+                  class="owl-carousel custom-dots-style-1 custom-dots-color-1 custom-dots-position-1 mb-0"
+                  data-plugin-options="{'items': 1, 'autoHeight': true, 'loop': false, 'nav': false, 'dots': true}"
+                >
+                  <div>
+                    <div class="col">
+                      <div
+                        class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0"
+                      >
+                        <blockquote class="pb-2">
+                          <p class="custom-text-color-3">
+                            Often I finished my designs with a sense that I have
+                            solved for 80-90% use cases. Once it passed under
+                            SHELKE microscopic lens, he would make me realize
+                            ... I missed capturing 15-20% of the edge cases,
+                            scenarios or use cases. After having close to a
+                            dozen of similar experiences, I started looping him
+                            early. Much before I handed off design to engineers.
+                            Collaboration with Mahesh helped me sharpen my
+                            ability to map edge cases, scenarios etc early and
+                            enabled me to produce high-quality design.
+                          </p>
+                          <p class="custom-text-color-3">
+                            Beyond the world of QA, he comes across as a product
+                            enthusiast with an opinion on any aspect of the
+                            product. Be it over collaboration or chai, you can
+                            freely discuss design, frontend, backend, database
+                            etc. He has QA'ed >80% of my projects. Given his
+                            diverse opinion, diligence, ability to provide
+                            direct and actional feedback,
+                          </p>
+                          <p class="custom-text-color-3">
+                            Mahesh has my highest recommendation for a product
+                            company.
+                          </p>
+                        </blockquote>
+                        <div class="testimonial-author float-left">
+                          <p>
+                            <strong class="text-uppercase"
+                              >Somnath Nabajja </strong
+                            ><span class="custom-text-color-3"
+                              >UX Designer @ Tala</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-										</div>
-										<div class="row image-gallery  lightbox" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-1.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-1.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-2.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-2.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-3.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-3.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-5.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-5.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-6.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-6.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-7.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-7.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-8.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-8.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-											<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-												<div class="image-gallery-item mb-4 pb-3">
-													<a href="img/demos/resume/project/glabs-9.jpg" class="lightbox-portfolio">
-														<span class="thumb-info custom-thumb-info-1">
-															<span class="thumb-info-wrapper">
-																<span class="thumb-info-plus"></span>
-																<img src="img/demos/resume/project/glabs-9.jpg" class="img-fluid" alt="">
-															</span>
-														</span>
-													</a>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="tab-pane" id="tabsNavigationSimple2">
-										<div class="text-left">
-											<h4>Octo</h4>
-											<p>
-												Octo is java based application. Which accept code of different different languages like Java, Python, C, CPP, JavaScript. Execute them on their platform.
-												Every platform is generated at runtime based on language of code with the help of docker container. For every Code evaluation/execution request application programmatically trigger container & return output of execution. It is most scalable project of GreyAtom. Glab can support N no of language for execution
-											</p>
+                  <div>
+                    <div class="col">
+                      <div
+                        class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0"
+                      >
+                        <blockquote class="pb-2">
+                          <p class="custom-text-color-3">
+                            Mahesh is a rare combination of talent and execution
+                            I came across.
+                          </p>
+                          <p class="custom-text-color-3">
+                            I have worked with Mahesh for four years. Mahesh can
+                            learn new technology and adapt to it very quickly.
+                            He has delivered great results on task and project
+                            which were assigned to him.
+                          </p>
+                          <p class="custom-text-color-3">
+                            He has learned a lot over time and turned into an
+                            excellent full-stack developer. He is a full package
+                            and would be a great asset to any organization. As a
+                            team member and a leader, Mahesh earns my highest
+                            recommendation.
+                          </p>
+                        </blockquote>
+                        <div class="testimonial-author float-left">
+                          <p>
+                            <strong class="text-uppercase"
+                              >Pradeep Jaiswar </strong
+                            ><span class="custom-text-color-3"
+                              >Principle Engginer @ Upstock</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="col">
+                      <div
+                        class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0"
+                      >
+                        <blockquote class="pb-2">
+                          <p class="custom-text-color-3">
+                            I worked with Mahesh closely on more than 3
+                            products, each having different domains. When I
+                            worked with Mahesh, he was always the gem of the
+                            team, spearheading the process not only qualitative
+                            analysis of the given product but also contributing
+                            through suggestions and improvements. Mahesh soon
+                            transitioned into a Full Stack Engineer with deep
+                            knowledge in QA.
+                          </p>
+                          <p class="custom-text-color-3">
+                            Mahesh is by far the most competitive and
+                            enthusiastic person who amazes everyone on the team
+                            with his skills and expertise. He was the pillar of
+                            every product we built together, through his strong
+                            communication and the frankness he carried while
+                            giving feedback, it made the team learn and build
+                            features rapidly as needed in a startup environment.
+                          </p>
+                          <p class="custom-text-color-3">
+                            It was his contribution through which we as a team
+                            were able to deliver multiple products with the
+                            least amount of time. If given a chance I would
+                            definitely want to join hands with him again but
+                            until then I would definitely recommend him on the
+                            team as he has hands-on experience of both
+                            Development and QA world.
+                          </p>
+                        </blockquote>
+                        <div class="testimonial-author float-left">
+                          <p>
+                            <strong class="text-uppercase">Suraj Jadhav</strong
+                            ><span class="custom-text-color-3"
+                              >Senior Software Engineer @ DataGuard</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="col">
+                      <div
+                        class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0"
+                      >
+                        <blockquote class="pb-2">
+                          <p class="custom-text-color-3">
+                            I had a pleasure working with mahesh for past one
+                            and half year. I would describe Mahesh Shelke as a
+                            "True Gem" in a Team. He has astounding mind which
+                            can save organisation a couple of bucks. He used to
+                            handle Backend and QA Team while focusing on other
+                            aspects of product delivery. He had tremendous
+                            knowledge on multiple languages like
+                            Java/Python/JavaScript as well as he had great
+                            knowledge on multiple framework build around this
+                            languages.I would love to work with Mahesh again if
+                            get a chance in future.
+                          </p>
+                        </blockquote>
+                        <div class="testimonial-author float-left">
+                          <p>
+                            <strong class="text-uppercase">Atul Salunkhe</strong
+                            ><span class="custom-text-color-3"
+                              >Senior QA Engineer @ Privacera</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="col">
+                      <div
+                        class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0"
+                      >
+                        <blockquote class="pb-2">
+                          <p class="custom-text-color-3">
+                            I have had the pleasure of working under Mahesh
+                            Shelke directly on a bunch of projects.Mahesh sir is
+                            fun and relatable personality along with his
+                            dedication to teamwork makes him a really pleasant
+                            lead to work with.Also amount of knowledge Mahesh
+                            sir possess is extraordinary having very good
+                            knowledge of Design Patterns makes development of
+                            product seamlessly easy and efficient with minimum
+                            to no issues.I really learned a-lot under Mahesh.
+                          </p>
+                        </blockquote>
+                        <div class="testimonial-author float-left">
+                          <p>
+                            <strong class="text-uppercase">Samuel Nadar</strong
+                            ><span class="custom-text-color-3"
+                              >FrontEnd Developer @ GreyAtom</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="col">
+                      <div
+                        class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0"
+                      >
+                        <blockquote class="pb-2">
+                          <p class="custom-text-color-3">
+                            I have worked with Mahesh on several projects in the
+                            last 3yrs at GreyAtom. Mahesh has a great
+                            understanding of Product development, where he is
+                            able to anchor both the customer experience and
+                            agile development. It is hard to come across someone
+                            as passionate about products as Mahesh is. I have
+                            seen more than many developers grow with Mahesh's
+                            management and guidance. As a team member or a
+                            leader, Mahesh earns my highest regards.
+                          </p>
+                        </blockquote>
+                        <div class="testimonial-author float-left">
+                          <p>
+                            <strong class="text-uppercase"
+                              >Nishant Sharma</strong
+                            ><span class="custom-text-color-3"
+                              >Growth Specialist @ GreyAtom</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="col">
+                      <div
+                        class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0"
+                      >
+                        <blockquote class="pb-2">
+                          <p class="custom-text-color-3">
+                            Mahesh has strong technical skills, plus his
+                            understanding about products is very good, he is
+                            able to to think of various edge cases before hand.
+                          </p>
+                        </blockquote>
+                        <div class="testimonial-author float-left">
+                          <p>
+                            <strong class="text-uppercase"
+                              >Aishwarya Bharuka</strong
+                            ><span class="custom-text-color-3"
+                              >Senior Software Engineer @ GreyAtom</span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-											<p>
-												Octo also support to execute Frontend Program to execute & test. Project which based on NodeJs, JavaScript, HTML, CSS are supported by Octo. At time of execution, its trigger headless browser within container to evaluate frontend program.
-											</p>
+        <section
+          id="myStories"
+          class="section section-no-border custom-background-color-1 m-0"
+        >
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2
+                  class="text-color-quaternary font-weight-extra-bold text-uppercase"
+                >
+                  Stories
+                </h2>
+                <div class="row">
+                  <div class="col-lg-6 mb-5 mb-lg-0">
+                    <article
+                      class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation"
+                      data-appear-animation="fadeIn"
+                      data-appear-animation-delay="0"
+                      data-appear-animation-duration="1s"
+                    >
+                      <div class="thumb-info-wrapper">
+                        <a
+                          href="https://yourstory.com/2018/01/edtech-startup-greyatom-raises-1m-from-pravega-ventures"
+                        >
+                          <img
+                            src="img/demos/resume/story/YourStory-GreyAtom.jpg"
+                            alt
+                            class="img-fluid"
+                          />
+                        </a>
+                      </div>
+                      <div class="thumb-info-caption">
+                        <div class="thumb-info-caption-text">
+                          <h4 class="mb-2">
+                            <a
+                              href="https://yourstory.com/2018/01/edtech-startup-greyatom-raises-1m-from-pravega-ventures"
+                              class="text-decoration-none text-color-dark font-weight-semibold"
+                            >
+                              Edtech startup GreyAtom raises $1M from Pravega
+                              Ventures
+                            </a>
+                          </h4>
+                          <p class="custom-text-color-1">yourstory.com</p>
+                          <p class="custom-text-color-2">
+                            Edtech startup GreyAtom has raised $1 million in a
+                            funding round led by early-stage fund Pravega
+                            Ventures. GreyAtom is a boot camp-style immersive
+                            learning programme for Data Science, Machine
+                            Learning, and Artificial Intelligence...
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col-lg-6 mb-5 mb-lg-0">
+                    <article
+                      class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation"
+                      data-appear-animation="fadeIn"
+                      data-appear-animation-delay="0"
+                      data-appear-animation-duration="1s"
+                    >
+                      <div class="thumb-info-wrapper">
+                        <a
+                          href="https://yourstory.com/2015/12/interactive-intelligence-acquires-customer360"
+                        >
+                          <img
+                            src="img/demos/resume/story/YourStory-Customer360.jpg"
+                            alt
+                            class="img-fluid"
+                          />
+                        </a>
+                      </div>
+                      <div class="thumb-info-caption">
+                        <div class="thumb-info-caption-text">
+                          <h4 class="mb-2">
+                            <a
+                              href="https://yourstory.com/2015/12/interactive-intelligence-acquires-customer360"
+                              class="text-decoration-none text-color-dark font-weight-semibold"
+                            >
+                              Mumbai-based Customer360 gets acquired by US-based
+                              Interactive Intelligence
+                            </a>
+                          </h4>
+                          <p class="custom-text-color-1">yourstory.com</p>
+                          <p class="custom-text-color-2">
+                            US-based Interactive Intelligence, a customer
+                            engagement and collaboration software and cloud
+                            services provider, has acquired Mumbai-based startup
+                            Customer360, a platform that helps companies improve
+                            customer relations using non-voice communications
+                            channels...
+                          </p>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-											<p>
-												Backend Stack : JAVA, Spring boot, REST, Swagger2, Docker
-												<br/>
-												Third-Party Application & IDE : JIRA, BitBucket, Intellij, Jenkin
-											</p>
+        <div id="say-hello" class="container-fluid">
+          <div class="row">
+            <div class="col-lg-6 p-0">
+              <section class="section section-no-border contactPanel h-100 m-0">
+                <div class="row justify-content-end m-0">
+                  <div class="col-half-section col-half-section-right mr-3">
+                    <h2
+                      class="text-color-quaternary text-uppercase font-weight-extra-bold"
+                    >
+                      “Life would be much easier if I had the source code.” ―
+                      Anonymous
+                    </h2>
+                  </div>
+                </div>
+              </section>
+            </div>
+            <div class="col-lg-6 p-0">
+              <section
+                class="section section-no-border h-100 m-0"
+                style="
+                  background: url(img/demos/resume/contact/contact-bg-1.jpg);
+                  background-size: cover;
+                "
+              >
+                <div class="row m-0">
+                  <div class="col-half-section col-half-section-left ml-3">
+                    <a
+                      href="mailto:you@domain.com"
+                      class="text-decoration-none"
+                    >
+                      <span
+                        class="feature-box custom-feature-box align-items-center mb-4"
+                      >
+                        <span class="custom-feature-box-icon">
+                          <i class="icon-envelope icons text-color-light"></i>
+                        </span>
+                        <span class="feature-box-info">
+                          <span
+                            class="custom-label font-weight-semibold text-uppercase custom-text-color-1"
+                            >Email</span
+                          >
+                          <strong
+                            class="font-weight-light text-color-light custom-opacity-effect-1"
+                            >maheshbalushelke@gmail.com</strong
+                          >
+                        </span>
+                      </span>
+                    </a>
+                    <a href="tel:+1234657890" class="text-decoration-none">
+                      <span
+                        class="feature-box custom-feature-box align-items-center mb-4"
+                      >
+                        <span class="custom-feature-box-icon">
+                          <i class="icon-phone icons text-color-light"></i>
+                        </span>
+                        <span class="feature-box-info">
+                          <span
+                            class="custom-label font-weight-semibold text-uppercase custom-text-color-1"
+                            >Phone</span
+                          >
+                          <strong
+                            class="font-weight-light text-color-light custom-opacity-effect-1"
+                            >+91 8237 617 767</strong
+                          >
+                        </span>
+                      </span>
+                    </a>
+                    <a href="skype:yourskype?chat" class="text-decoration-none">
+                      <span
+                        class="feature-box custom-feature-box align-items-center mb-4"
+                      >
+                        <span class="custom-feature-box-icon">
+                          <i
+                            class="icon-social-skype icons text-color-light"
+                          ></i>
+                        </span>
+                        <span class="feature-box-info">
+                          <span
+                            class="custom-label font-weight-semibold text-uppercase custom-text-color-1"
+                            >Skype</span
+                          >
+                          <strong
+                            class="font-weight-light text-color-light custom-opacity-effect-1"
+                            >yourskype</strong
+                          >
+                        </span>
+                      </span>
+                    </a>
+                    <span
+                      class="feature-box custom-feature-box align-items-center"
+                    >
+                      <span class="custom-feature-box-icon">
+                        <i class="icon-share icons text-color-light"></i>
+                      </span>
+                      <a
+                        href="https://www.facebook.com/mahesh.shelke.10690"
+                        class="d-flex text-decoration-none"
+                      >
+                        <span class="feature-box-info">
+                          <span
+                            class="custom-label font-weight-semibold text-uppercase custom-text-color-1"
+                            >Follow me</span
+                          >
+                          <strong
+                            class="font-weight-light text-color-light custom-opacity-effect-1"
+                            >Facebook</strong
+                          >
+                        </span>
+                      </a>
+                      <a
+                        href="https://twitter.com/maheshbshelke"
+                        class="d-flex text-decoration-none"
+                      >
+                        <span
+                          class="feature-box-info custom-both-side-border mt-2"
+                        >
+                          <strong
+                            class="font-weight-light text-color-light custom-opacity-effect-1"
+                            >Twitter</strong
+                          >
+                        </span>
+                      </a>
+                      <a
+                        href="https://www.linkedin.com/in/maheshshelke"
+                        class="d-flex text-decoration-none"
+                      >
+                        <span class="feature-box-info p-0 mt-2">
+                          <strong
+                            class="font-weight-light text-color-light custom-opacity-effect-1"
+                            >Linkedin</strong
+                          >
+                        </span>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--			<footer id="footer" class="m-0 p-0">-->
+      <!--				<div class="footer-copyright background-color-light m-0">-->
+      <!--					<div class="container">-->
+      <!--						<div class="row">-->
+      <!--							<div class="col-lg-12 m-0">-->
+      <!--								<p class="custom-text-color-2">© Copyright 2018. All Rights Reserved.</p>-->
+      <!--							</div>-->
+      <!--						</div>-->
+      <!--					</div>-->
+      <!--				</div>-->
+      <!--			</footer>-->
+    </div>
 
-										</div>
-									</div>
-									<div class="tab-pane" id="tabsNavigationSimple3">
-										<div class="text-left">
-											<h4>500+ Google Fonts</h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-										</div>
-										
-									</div>
-									<div class="tab-pane" id="tabsNavigationSimple4">
-										<div class="text-left">
-											<h4>Colors</h4>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pellentesque neque eget diam posuere porta. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia.</p>
-											<p>Lorem ipsum dolor sit amet. Quisque ut nulla at nunc <a href="#">vehicula</a> lacinia. Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
+    <!-- Vendor -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
+    <script src="vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
+    <script src="vendor/popper/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/common/common.min.js"></script>
+    <script src="vendor/jquery.validation/jquery.validation.min.js"></script>
+    <script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+    <script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
+    <script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+    <script src="vendor/isotope/jquery.isotope.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="vendor/vide/vide.min.js"></script>
 
-				</div>
+    <!-- Theme Base, Components and Settings -->
+    <script src="js/theme.js"></script>
 
+    <!-- Current Page Vendor and Views -->
+    <script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 
-			</section>
+    <!-- Current Page Vendor and Views -->
+    <script src="js/views/view.contact.js"></script>
 
-			<section id="education" class="section section-no-border custom-background-color-1 m-0">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold m-0">Education</h2>
-							<div class="owl-carousel nav-bottom custom-dots-style-1 mb-0" data-plugin-options="{'items': 1, 'loop': false, 'dots': true, 'nav': false}">
-								<div class="row">
-									<div class="col-lg-6 col-sm-6 pb-4">
-										<div class="custom-box-details-2 background-color-light custom-box-shadow-3">
-											<i class="icon-graduation icons text-color-primary"></i>
-											<h4 class="font-weight-semibold text-color-dark m-0">Tilak University, Pune</h4>
-											<p class="custom-text-color-2 mb-1">Bachelors in Computer Application</p>
-											<strong class="text-color-primary">2001-2017</strong>
-										</div>
-									</div>
-									<div class="col-lg-6 col-sm-6 pb-4">
-										<div class="custom-box-details-2 background-color-light custom-box-shadow-3">
-											<i class="icon-graduation icons text-color-primary"></i>
-											<h4 class="font-weight-semibold text-color-dark m-0">Mumbai University</h4>
-											<p class="custom-text-color-2 mb-1">Bachelor of Commerce</p>
-											<strong class="text-color-primary">2002-2007</strong>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-lg-6 col-sm-6 pb-4">
-										<div class="custom-box-details-2 background-color-light custom-box-shadow-3">
-											<i class="icon-graduation icons text-color-primary"></i>
-											<h4 class="font-weight-semibold text-color-dark m-0">Mumbai University</h4>
-											<p class="custom-text-color-2 mb-1">Higher Secondary Certificate</p>
-											<strong class="text-color-primary">2002</strong>
-										</div>
-									</div>
-									<div class="col-lg-6 col-sm-6 pb-4">
-										<div class="custom-box-details-2 background-color-light custom-box-shadow-3">
-											<i class="icon-graduation icons text-color-primary"></i>
-											<h4 class="font-weight-semibold text-color-dark m-0">Maharashtra State Board</h4>
-											<p class="custom-text-color-2 mb-1">Secondary School Certificate</p>
-											<strong class="text-color-primary">2000</strong>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    <!-- Demo -->
+    <script src="js/demos/demo-resume.js"></script>
 
-			<section id="skills" class="section section-no-border background-color-light m-0">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-md-6 col-lg-8 mb-4 mb-md-0">
-							<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">Strength & Skills</h2>
-							<div class="row pb-4">
-								<div class="col-lg-4">
-									<div class="progress-bars custom-progress-bars">
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Start-Ups</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Innovation</span>
-										</div>
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Products</span>
-										</div>
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>UI / UX</span>
-										</div>
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Business</span>
-										</div>
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>E-commerce</span>
-										</div>
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Creative</span>
-										</div>
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Microservices</span>
-										</div>
-										 <div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Monolith</span>
-										</div>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="progress-bars custom-progress-bars">
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Java</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>React</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Docker</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>Automation Testing</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>RestAPI</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>DevOps</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>PostgreSql</span>
-										</div>
-										<div
-											class="text-color-dark font-weight-semibold text-uppercase text-2"
-										>
-											<span>
-											<img
-												src="img/demos/resume/skills/java.png"
-												class="skills"
-												alt="Java"
-											/>
-											</span>
-											<span>AWS</span>
-										</div>
-										<div
-										class="text-color-dark font-weight-semibold text-uppercase text-2"
-									>
-										<span>
-										<img
-											src="img/demos/resume/skills/java.png"
-											class="skills"
-											alt="Java"
-										/>
-										</span>
-												<span>JIRA</span>
-											</div>
-										
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="progress-bars custom-progress-bars">
-	
-										<div
-									class="text-color-dark font-weight-semibold text-uppercase text-2"
-								>
-									<span>
-									<img
-										src="img/demos/resume/skills/java.png"
-										class="skills"
-										alt="Java"
-									/>
-									</span>
-											<span>Product Management</span>
-										</div>
-										<div
-									class="text-color-dark font-weight-semibold text-uppercase text-2"
-								>
-									<span>
-									<img
-										src="img/demos/resume/skills/java.png"
-										class="skills"
-										alt="Java"
-									/>
-									</span>
-											<span>Customer Success</span>
-										</div>
-										<div
-									class="text-color-dark font-weight-semibold text-uppercase text-2"
-								>
-									<span>
-									<img
-										src="img/demos/resume/skills/java.png"
-										class="skills"
-										alt="Java"
-									/>
-									</span>
-											<span>Analytics</span>
-										</div>
-										<div
-									class="text-color-dark font-weight-semibold text-uppercase text-2"
-								>
-									<span>
-									<img
-										src="img/demos/resume/skills/java.png"
-										class="skills"
-										alt="Java"
-									/>
-									</span>
-											<span>Building team</span>
-										</div>
-										<div
-										class="text-color-dark font-weight-semibold text-uppercase text-2"
-									>
-										<span>
-										<img
-											src="img/demos/resume/skills/java.png"
-											class="skills"
-											alt="Java"
-										/>
-										</span>
-												<span>Google Cloud</span>
-											</div>
-	
-											<div
-										class="text-color-dark font-weight-semibold text-uppercase text-2"
-									>
-										<span>
-										<img
-											src="img/demos/resume/skills/java.png"
-											class="skills"
-											alt="Java"
-										/>
-										</span>
-												<span>gRPC</span>
-											</div>
-											<div
-										class="text-color-dark font-weight-semibold text-uppercase text-2"
-									>
-										<span>
-										<img
-											src="img/demos/resume/skills/java.png"
-											class="skills"
-											alt="Java"
-										/>
-										</span>
-												<span>DynamoDb</span>
-											</div>
-											<div
-										class="text-color-dark font-weight-semibold text-uppercase text-2"
-									>
-										<span>
-										<img
-											src="img/demos/resume/skills/java.png"
-											class="skills"
-											alt="Java"
-										/>
-										</span>
-												<span>Spring boot</span>
-											</div>
-											
-									</div>
-								</div>
-							</div>
-						
-							
-						</div>
-						<div class="col-md-6 col-lg-4">
-							<div class="row">
-							  <div class="col">
-								<div
-								  class="custom-box-details background-color-light custom-box-shadow-1">
-								  <h4 class="text-color-dark">Languages</h4>
-								  <ul class="custom-list-style-1 p-0">
-									<li>
-									  <span
-										class="font-weight-semibold custom-max-width-1 text-color-dark"
-										><img
-										  src="img/blank.gif"
-										  class="flag flag-us mr-1"
-										  alt="English"
-										/>English:</span>
-									  <span class="custom-text-color-2">Basic</span>
-									</li>
-									<li>
-									  <span
-										class="font-weight-semibold custom-max-width-1 text-color-dark">
-										  <img src="img/blank.gif" class="flag flag-in mr-1" alt="Japnese"/>Hindi:</span>
-									  <span class="custom-text-color-2">Advanced</span>
-									</li>
-									<li>
-										<span
-										  class="font-weight-semibold custom-max-width-1 text-color-dark"
-										  ><img
-											src="img/blank.gif"
-											class="flag flag-in mr-1"
-											alt="Japnese"
-										  />Marathi:</span
-										>
-										<span class="custom-text-color-2">Advanced</span>
-									  </li>
-								  </ul>
-								</div>
-							  </div>
-							</div>
-						  </div>
-					</div>
-				</div>
-			</section>
-		
-			<section id="portfolio" class="section section-no-border background-color-secondary m-0">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">Portfolio</h2>
-							<ul class="nav nav-pills sort-source custom-nav-sort mb-4" data-sort-id="portfolio" data-option-key="filter">
-								<li class="nav-item active" data-option-value="*"><a class="nav-link text-dark active" href="#">Show All</a></li>
-								<li class="nav-item" data-option-value=".websites"><a class="nav-link text-dark" href="#">Certificate</a></li>
-								<li class="nav-item" data-option-value=".logos"><a class="nav-link text-dark" href="#">Team Recognition</a></li>
-							</ul>
-							<div class="sort-destination-loader sort-destination-loader-showing">
-								<div class="row image-gallery sort-destination lightbox" data-sort-id="portfolio" data-plugin-options="{'delegate': 'a.lightbox-portfolio', 'type': 'image', 'gallery': {'enabled': true}}">
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/Sangam & Mahesh (1).jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/Sangam & Mahesh (1).jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/IMG_20210120_173559_1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/IMG_20210120_173559_1.jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item websites">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/IMG_20210120_173520_1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/IMG_20210120_173520_1.jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/avenger1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/avenger1.jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/avenger2.png" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/avenger2.png" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/IMG_20210120_174824_1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/IMG_20210120_174824_1.jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/IMG_20210120_174905_1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/IMG_20210120_174905_1.jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/IMG_20210120_174943_1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/IMG_20210120_174943_1.jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-									<div class="col-12 col-sm-6 col-lg-3 isotope-item logos">
-										<div class="image-gallery-item mb-4 pb-3">
-											<a href="img/demos/resume/certificateAndReg/IMG_20210120_175012_1.jpg" class="lightbox-portfolio">
-												<span class="thumb-info custom-thumb-info-1">
-													<span class="thumb-info-wrapper">
-														<span class="thumb-info-plus"></span>
-														<img src="img/demos/resume/certificateAndReg/IMG_20210120_175012_1.jpg" class="img-fluid" alt="">
-													</span>
-												</span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+    <!-- Theme Custom -->
+    <script src="js/custom.js"></script>
 
-			<section id="recommendations" class="section section-no-border background-color-light m-0">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">Recommendations</h2>
-						</div>
-						<div class="col-lg-12 p-0">
-							<div class="owl-carousel custom-dots-style-1 custom-dots-color-1 custom-dots-position-1 mb-0" data-plugin-options="{'items': 1, 'autoHeight': true, 'loop': false, 'nav': false, 'dots': true}">
-								<div>
-									<div class="col">
-										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
-											<blockquote class="pb-2">
-												<p class="custom-text-color-3">Often I finished my designs with a sense that I have solved for 80-90% use cases. Once it passed under SHELKE microscopic lens, he would make me realize ... I missed capturing 15-20% of the edge cases, scenarios or use cases.  After having close to a dozen of similar experiences, I started looping him early. Much before I handed off design to engineers. Collaboration with Mahesh helped me sharpen my ability to map edge cases, scenarios etc early and enabled me to produce high-quality design.
-												</p>
-												<p  class="custom-text-color-3">Beyond the world of QA, he comes across as a product enthusiast with an opinion on any aspect of the product. Be it over collaboration or chai, you can freely discuss design, frontend, backend, database etc. He has QA'ed >80% of my projects. Given his diverse opinion, diligence, ability to provide direct and actional feedback, </p>
-												<p  class="custom-text-color-3">Mahesh has my highest recommendation for a product company.</p>
-											</blockquote>
-											<div class="testimonial-author float-left">
-												<p><strong class="text-uppercase">Somnath Nabajja </strong><span class="custom-text-color-3">UX Designer @ Tala</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
+    <!-- Theme Initialization Files -->
+    <script src="js/theme.init.js"></script>
 
-								<div>
-									<div class="col">
-										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
-											<blockquote class="pb-2">
-												<p class="custom-text-color-3">Mahesh is a rare combination of talent and execution I came across.
-												</p>
-												<p class="custom-text-color-3">
-													I have worked with Mahesh for four years. Mahesh can learn new technology and adapt to it very quickly. He has delivered great results on task and project which were assigned to him.
-												</p>
-												<p class="custom-text-color-3">
-												He has learned a lot over time and turned into an excellent full-stack developer. He is a full package and would be a great asset to any organization. As a team member and a leader, Mahesh earns my highest recommendation.</p>
-											</blockquote>
-											<div class="testimonial-author float-left">
-												<p><strong class="text-uppercase">Pradeep Jaiswar </strong><span class="custom-text-color-3">Principle Engginer @ Upstock</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div>
-									<div class="col">
-										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
-											<blockquote class="pb-2">
-												<p class="custom-text-color-3">I worked with Mahesh closely on more than 3 products, each having different domains. When I worked with Mahesh, he was always the gem of the team, spearheading the process not only qualitative analysis of the given product but also contributing through suggestions and improvements. Mahesh soon transitioned into a Full Stack Engineer with deep knowledge in QA.
-												</p>
-												<p class="custom-text-color-3">
-													Mahesh is by far the most competitive and enthusiastic person who amazes everyone on the team with his skills and expertise. He was the pillar of every product we built together, through his strong communication and the frankness he carried while giving feedback, it made the team learn and build features rapidly as needed in a startup environment.
-												</p>
-												<p class="custom-text-color-3">
-													It was his contribution through which we as a team were able to deliver multiple products with the least amount of time. If given a chance I would definitely want to join hands with him again but until then I would definitely recommend him on the team as he has hands-on experience of both Development and QA world.</p>
-											</blockquote>
-											<div class="testimonial-author float-left">
-												<p><strong class="text-uppercase">Suraj Jadhav</strong><span class="custom-text-color-3">Senior Software Engineer @ DataGuard</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div>
-									<div class="col">
-										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
-											<blockquote class="pb-2">
-												<p class="custom-text-color-3">I had a pleasure working with mahesh for past one and half year. I would describe Mahesh Shelke as a "True Gem" in a Team. He has astounding mind which can save organisation a couple of bucks. He used to handle Backend and QA Team while focusing on other aspects of product delivery. He had tremendous knowledge on multiple languages like Java/Python/JavaScript as well as he had great knowledge on multiple framework build around this languages.I would love to work with Mahesh again if get a chance in future.</p>
-											</blockquote>
-											<div class="testimonial-author float-left">
-												<p><strong class="text-uppercase">Atul Salunkhe</strong><span class="custom-text-color-3">Senior QA Engineer  @ Privacera</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div>
-									<div class="col">
-										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
-											<blockquote class="pb-2">
-												<p class="custom-text-color-3">I have had the pleasure of working under Mahesh Shelke directly on a bunch of projects.Mahesh sir is fun and relatable personality along with his dedication to teamwork makes him a really pleasant lead to work with.Also amount of knowledge Mahesh sir possess is extraordinary having very good knowledge of Design Patterns makes development of product seamlessly easy and efficient with minimum to no issues.I really learned a-lot under Mahesh.</p>
-											</blockquote>
-											<div class="testimonial-author float-left">
-												<p><strong class="text-uppercase">Samuel Nadar</strong><span class="custom-text-color-3">FrontEnd Developer @ GreyAtom</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div>
-									<div class="col">
-										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
-											<blockquote class="pb-2">
-												<p class="custom-text-color-3">I have worked with Mahesh on several projects in the last 3yrs at GreyAtom. Mahesh has a great understanding of Product development, where he is able to anchor both the customer experience and agile development. It is hard to come across someone as passionate about products as Mahesh is. I have seen more than many developers grow with Mahesh's management and guidance. As a team member or a leader, Mahesh earns my highest regards.</p>
-											</blockquote>
-											<div class="testimonial-author float-left">
-												<p><strong class="text-uppercase">Nishant Sharma</strong><span class="custom-text-color-3">Growth Specialist @ GreyAtom</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div>
-									<div class="col">
-										<div class="testimonial custom-testimonial-style-1 testimonial-with-quotes mb-0">
-											<blockquote class="pb-2">
-												<p class="custom-text-color-3">Mahesh has strong technical skills, plus his understanding about products is very good, he is able to to think of various edge cases before hand.</p>
-											</blockquote>
-											<div class="testimonial-author float-left">
-												<p><strong class="text-uppercase">Aishwarya Bharuka</strong><span class="custom-text-color-3">Senior Software Engineer @ GreyAtom</span></p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			
-			<section id="myStories" class="section section-no-border custom-background-color-1 m-0">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<h2 class="text-color-quaternary font-weight-extra-bold text-uppercase">Stories</h2>
-							<div class="row">
-								<div class="col-lg-6 mb-5 mb-lg-0">
-									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
-										<div class="thumb-info-wrapper">
-											<a href="https://yourstory.com/2018/01/edtech-startup-greyatom-raises-1m-from-pravega-ventures">
-												<img src="img/demos/resume/story/YourStory-GreyAtom.jpg" alt class="img-fluid" />
-											</a>
-										</div>
-										<div class="thumb-info-caption">
-											<div class="thumb-info-caption-text">
-												<h4 class="mb-2">
-													<a href="https://yourstory.com/2018/01/edtech-startup-greyatom-raises-1m-from-pravega-ventures" class="text-decoration-none text-color-dark font-weight-semibold">
-														Edtech startup GreyAtom raises $1M from Pravega Ventures
-													</a>
-												</h4>
-												<p class="custom-text-color-1">yourstory.com</p>
-												<p class="custom-text-color-2">Edtech startup GreyAtom has raised $1 million in a funding round led by early-stage fund Pravega Ventures. GreyAtom is a boot camp-style immersive learning programme for Data Science, Machine Learning, and Artificial Intelligence...</p>
-											</div>
-										</div>
-									</article>
-								</div>
-								<div class="col-lg-6 mb-5 mb-lg-0">
-									<article class="thumb-info custom-thumb-info-2 custom-box-shadow-1 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="0" data-appear-animation-duration="1s">
-										<div class="thumb-info-wrapper">
-											<a href="https://yourstory.com/2015/12/interactive-intelligence-acquires-customer360">
-												<img src="img/demos/resume/story/YourStory-Customer360.jpg" alt class="img-fluid" />
-											</a>
-										</div>
-										<div class="thumb-info-caption">
-											<div class="thumb-info-caption-text">
-												<h4 class="mb-2">
-													<a href="https://yourstory.com/2015/12/interactive-intelligence-acquires-customer360" class="text-decoration-none text-color-dark font-weight-semibold">
-														Mumbai-based Customer360 gets acquired by US-based Interactive Intelligence
-
-													</a>
-												</h4>
-												<p class="custom-text-color-1">yourstory.com</p>
-												<p class="custom-text-color-2">US-based Interactive Intelligence, a customer engagement and collaboration software and cloud services provider, has acquired Mumbai-based startup Customer360, a platform that helps companies improve customer relations using non-voice communications channels...</p>
-											</div>
-										</div>
-									</article>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<div id="say-hello" class="container-fluid">
-				<div class="row">
-					<div class="col-lg-6 p-0">
-						<section class="section section-no-border contactPanel h-100 m-0">
-							<div class="row justify-content-end m-0">
-								<div class="col-half-section col-half-section-right mr-3">
-									<h2 class="text-color-quaternary text-uppercase font-weight-extra-bold">“Life would be much easier if I had the source code.”
-										― Anonymous</h2>
-								</div>
-							</div>
-						</section>
-					</div>
-					<div class="col-lg-6 p-0">
-						<section class="section section-no-border h-100 m-0" style="background: url(img/demos/resume/contact/contact-bg-1.jpg); background-size: cover;">
-							<div class="row m-0">
-								<div class="col-half-section col-half-section-left ml-3">
-									<a href="mailto:you@domain.com" class="text-decoration-none">
-										<span class="feature-box custom-feature-box align-items-center mb-4">
-											<span class="custom-feature-box-icon">
-												<i class="icon-envelope icons text-color-light"></i>
-											</span>
-											<span class="feature-box-info">
-												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Email</span>
-												<strong class="font-weight-light text-color-light custom-opacity-effect-1">maheshbalushelke@gmail.com</strong>
-											</span>
-										</span>
-									</a>
-									<a href="tel:+1234657890" class="text-decoration-none">
-										<span class="feature-box custom-feature-box align-items-center mb-4">
-											<span class="custom-feature-box-icon">
-												<i class="icon-phone icons text-color-light"></i>
-											</span>
-											<span class="feature-box-info">
-												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Phone</span>
-												<strong class="font-weight-light text-color-light custom-opacity-effect-1">+91 8237 617 767</strong>
-											</span>
-										</span>
-									</a>
-									<a href="skype:yourskype?chat" class="text-decoration-none">
-										<span class="feature-box custom-feature-box align-items-center mb-4">
-											<span class="custom-feature-box-icon">
-												<i class="icon-social-skype icons text-color-light"></i>
-											</span>
-											<span class="feature-box-info">
-												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Skype</span>
-												<strong class="font-weight-light text-color-light custom-opacity-effect-1">yourskype</strong>
-											</span>
-										</span>
-									</a>
-									<span class="feature-box custom-feature-box align-items-center">
-										<span class="custom-feature-box-icon">
-											<i class="icon-share icons text-color-light"></i>
-										</span>
-										<a href="https://www.facebook.com/mahesh.shelke.10690" class="d-flex text-decoration-none">
-											<span class="feature-box-info">
-												<span class="custom-label font-weight-semibold text-uppercase custom-text-color-1">Follow me</span>
-												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Facebook</strong>
-											</span>
-										</a>
-										<a href="https://twitter.com/maheshbshelke" class="d-flex text-decoration-none">
-											<span class="feature-box-info custom-both-side-border mt-2">
-												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Twitter</strong>
-											</span>
-										</a>
-										<a href="https://www.linkedin.com/in/maheshshelke" class="d-flex text-decoration-none">
-											<span class="feature-box-info p-0 mt-2">
-												<strong class="font-weight-light text-color-light custom-opacity-effect-1">Linkedin</strong>
-											</span>
-										</a>
-									</span>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</div>
-
-<!--			<footer id="footer" class="m-0 p-0">-->
-<!--				<div class="footer-copyright background-color-light m-0">-->
-<!--					<div class="container">-->
-<!--						<div class="row">-->
-<!--							<div class="col-lg-12 m-0">-->
-<!--								<p class="custom-text-color-2">© Copyright 2018. All Rights Reserved.</p>-->
-<!--							</div>-->
-<!--						</div>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</footer>-->
-		</div>
-
-		<!-- Vendor -->
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/jquery.appear/jquery.appear.min.js"></script>
-		<script src="vendor/jquery.easing/jquery.easing.min.js"></script>
-		<script src="vendor/jquery-cookie/jquery-cookie.min.js"></script>
-		<script src="vendor/popper/umd/popper.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-		<script src="vendor/common/common.min.js"></script>
-		<script src="vendor/jquery.validation/jquery.validation.min.js"></script>
-		<script src="vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
-		<script src="vendor/jquery.gmap/jquery.gmap.min.js"></script>
-		<script src="vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
-		<script src="vendor/isotope/jquery.isotope.min.js"></script>
-		<script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-		<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-		<script src="vendor/vide/vide.min.js"></script>
-		
-		<!-- Theme Base, Components and Settings -->
-		<script src="js/theme.js"></script>
-		
-		<!-- Current Page Vendor and Views -->
-		<script src="vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-		<script src="vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-		<!-- Current Page Vendor and Views -->
-		<script src="js/views/view.contact.js"></script>
-
-		<!-- Demo -->
-		<script src="js/demos/demo-resume.js"></script>
-		
-		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
-		
-		<!-- Theme Initialization Files -->
-		<script src="js/theme.init.js"></script>
-
-
-		<!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information.
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -1532,7 +2550,5 @@
 			ga('send', 'pageview');
 		</script>
 		 -->
-
-
-	</body>
+  </body>
 </html>
